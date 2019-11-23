@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DeLaTourAndroid"
+             x:Class="DeLaTourAndroid.MainPage">
+    
+    <StackLayout BackgroundColor="#212121">
+        <StackLayout Padding="12,12,12,12">
+            <Image Source="delatour.png" HeightRequest="250" WidthRequest="250" HorizontalOptions="Center"/>
+        </StackLayout>
+        <StackLayout Padding="8,48,8,8">
+            <local:RoundedEntry Keyboard="Email" FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Placeholder="Código" WidthRequest="370" x:Name="txtCodigo" Margin="12,12,12,12"/>
+            <local:RoundedEntry FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" IsPassword="True" VerticalOptions="Center" Placeholder="Contraseña" WidthRequest="370" x:Name="txtContrasenia" Margin="12,12,12,12"/>
+        </StackLayout>
+        <StackLayout Padding="8,12,8,8">
+            <Button BackgroundColor="#000000" WidthRequest="300" TextColor="#FFFFFF" FontFamily="WorkSans-Medium.ttf#WorkSans-Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" x:Name="onLogin" Clicked="OnLogin_Clicked" Text="Iniciar Sesión" BorderRadius="30"/>
+        </StackLayout>
+        <StackLayout Padding="8,12,8,8">
+            <Button BackgroundColor="#212121" WidthRequest="300" TextColor="#FFFFFF" FontFamily="WorkSans-Medium.ttf#WorkSans-Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" x:Name="onSignIn" Clicked="OnSignIn_Clicked" Text="Registrarse" BorderRadius="30"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="70"/>
+        
+        <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="70"/>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,11 @@
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\bin\Debug\netstandard2.0\DeLaTourAndroid.deps.json
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\bin\Debug\netstandard2.0\DeLaTourAndroid.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\bin\Debug\netstandard2.0\DeLaTourAndroid.pdb
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\Vista\MainPage.xaml.g.cs
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.csproj.CoreCompileInputs.cache
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.AssemblyInfoInputs.cache
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.AssemblyInfo.cs
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.pdb
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.csprojAssemblyReference.cache
