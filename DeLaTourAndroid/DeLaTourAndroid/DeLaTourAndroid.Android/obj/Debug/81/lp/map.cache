@@ -6,6 +6,9 @@ Plugin.Geolocator
 Plugin.LocalNotifications.Abstractions
 Plugin.LocalNotifications
 Plugin.Permissions
+Refractored.Fab
+Refractored.FabControl
+Refractored.FabControl.Droid
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

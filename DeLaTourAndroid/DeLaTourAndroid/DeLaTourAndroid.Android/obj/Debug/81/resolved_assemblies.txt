@@ -10,6 +10,9 @@ C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAn
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Plugin.LocalNotifications.Abstractions.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Plugin.LocalNotifications.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Plugin.Permissions.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Refractored.Fab.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Refractored.FabControl.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Refractored.FabControl.Droid.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.Numerics.dll
@@ -58,4 +61,5 @@ C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAn
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.Web.Services.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\System.ObjectModel.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.Android\obj\Debug\81\android\assets\Mono.Security.dll

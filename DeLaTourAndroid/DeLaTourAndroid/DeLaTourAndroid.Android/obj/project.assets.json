@@ -40,6 +40,33 @@
           "lib/monoandroid71/Plugin.Permissions.dll": {}
         }
       },
+      "Refractored.FloatingActionButton/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v7.RecyclerView": "25.4.0.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Refractored.Fab.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Refractored.Fab.dll": {}
+        }
+      },
+      "Refractored.FloatingActionButtonForms/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Refractored.FloatingActionButton": "2.1.0",
+          "Xamarin.Forms": "2.4.0.282"
+        },
+        "compile": {
+          "lib/MonoAndroid10/Refractored.FabControl.Droid.dll": {},
+          "lib/MonoAndroid10/Refractored.FabControl.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Refractored.FabControl.Droid.dll": {},
+          "lib/MonoAndroid10/Refractored.FabControl.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -547,6 +574,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Refractored.FloatingActionButtonForms": "2.1.0",
           "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamarin.Essentials": "1.3.1",
@@ -629,6 +657,42 @@
         "plugin.permissions.3.0.0.12.nupkg.sha512",
         "plugin.permissions.nuspec",
         "readme.txt"
+      ]
+    },
+    "Refractored.FloatingActionButton/2.1.0": {
+      "sha512": "eT/4xmP50hIm38IqrORreZw0qYsoCCuDiAGVYPstgfAWwzfRthVe0/PlFC6yR4K5TB6dnSA8YZC40o/kQSujwg==",
+      "type": "package",
+      "path": "refractored.floatingactionbutton/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Refractored.Fab.dll",
+        "lib/MonoAndroid10/Refractored.Fab.dll.mdb",
+        "lib/MonoAndroid10/Refractored.Fab.pdb",
+        "refractored.floatingactionbutton.2.1.0.nupkg.sha512",
+        "refractored.floatingactionbutton.nuspec"
+      ]
+    },
+    "Refractored.FloatingActionButtonForms/2.1.0": {
+      "sha512": "Uc1P1yNYMr+l7cRosv+2doMqS4VRj2M488NcoPAWAB5Lg9miV8PqfDR0F1CZKwZ42M3biYKO5TdTcjasw5iWZA==",
+      "type": "package",
+      "path": "refractored.floatingactionbuttonforms/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.dll",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.dll.mdb",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.pdb",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.xml",
+        "lib/MonoAndroid10/Refractored.FabControl.dll",
+        "lib/MonoAndroid10/Refractored.FabControl.pdb",
+        "lib/MonoAndroid10/Refractored.FabControl.xml",
+        "lib/netstandard1.0/Refractored.FabControl.deps.json",
+        "lib/netstandard1.0/Refractored.FabControl.dll",
+        "lib/netstandard1.0/Refractored.FabControl.pdb",
+        "lib/netstandard1.0/Refractored.FabControl.xml",
+        "refractored.floatingactionbuttonforms.2.1.0.nupkg.sha512",
+        "refractored.floatingactionbuttonforms.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -1606,6 +1670,7 @@
     "MonoAndroid,Version=v8.1": [
       "DeLaTourAndroid >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
+      "Refractored.FloatingActionButtonForms >= 2.1.0",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
@@ -1657,6 +1722,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Refractored.FloatingActionButtonForms": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           },
           "Xam.Plugin.Geolocator": {
             "target": "Package",

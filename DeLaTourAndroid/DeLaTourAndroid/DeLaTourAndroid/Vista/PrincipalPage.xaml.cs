@@ -14,6 +14,7 @@ using Xamarin.Essentials;
 using Plugin.Geolocator;
 using System.Timers;
 using Plugin.LocalNotifications;
+using Refractored.FabControl;
 
 namespace DeLaTourAndroid.Vista
 {
@@ -51,6 +52,22 @@ namespace DeLaTourAndroid.Vista
                 IsShowingUser  = true,
                 HasScrollEnabled = true
             };
+
+            var fab = new FloatingActionButtonView
+            {
+                HorizontalOptions = LayoutOptions.Start,
+                VerticalOptions = LayoutOptions.End,
+                ImageName = "add.png",
+                ColorNormal = Color.FromHex("F00A2A"),
+                ColorPressed = Color.FromHex("142856"),
+                ColorRipple = Color.FromHex("142856"),
+                Clicked = async (sender, args) =>
+                {
+                    var response = await DisplayAlert("Sitios de interés", "¿Deseas recomendar un sitio nuevo?", "Sí", "Ahora no");
+                    if (response)
+                        await Navigation.PushModalAsync(new AgregarPage());
+                }
+            };
             
             stackLayout = new StackLayout
             {
@@ -59,7 +76,16 @@ namespace DeLaTourAndroid.Vista
                 BackgroundColor = Color.FromHex("142856"),
                 Children =
                 {
-                    map
+                    new Grid()
+                    {
+                         VerticalOptions = LayoutOptions.FillAndExpand,
+                    HorizontalOptions = LayoutOptions.FillAndExpand,
+                        Children =
+                        {
+                            map,
+                            fab
+                        }
+                    }
                 }
             };
             List<Pin> pins = new List<Pin>();

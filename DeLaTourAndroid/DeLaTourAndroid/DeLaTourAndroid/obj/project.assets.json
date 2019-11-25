@@ -35,6 +35,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Refractored.FloatingActionButtonForms/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Refractored.FabControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Refractored.FabControl.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -280,6 +292,28 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Refractored.FloatingActionButtonForms/2.1.0": {
+      "sha512": "Uc1P1yNYMr+l7cRosv+2doMqS4VRj2M488NcoPAWAB5Lg9miV8PqfDR0F1CZKwZ42M3biYKO5TdTcjasw5iWZA==",
+      "type": "package",
+      "path": "refractored.floatingactionbuttonforms/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.dll",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.dll.mdb",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.pdb",
+        "lib/MonoAndroid10/Refractored.FabControl.Droid.xml",
+        "lib/MonoAndroid10/Refractored.FabControl.dll",
+        "lib/MonoAndroid10/Refractored.FabControl.pdb",
+        "lib/MonoAndroid10/Refractored.FabControl.xml",
+        "lib/netstandard1.0/Refractored.FabControl.deps.json",
+        "lib/netstandard1.0/Refractored.FabControl.dll",
+        "lib/netstandard1.0/Refractored.FabControl.pdb",
+        "lib/netstandard1.0/Refractored.FabControl.xml",
+        "refractored.floatingactionbuttonforms.2.1.0.nupkg.sha512",
+        "refractored.floatingactionbuttonforms.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -731,6 +765,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
+      "Refractored.FloatingActionButtonForms >= 2.1.0",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xam.Plugins.Notifier >= 3.0.1",
       "Xamarin.Essentials >= 1.3.1",
@@ -788,6 +823,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.3, )"
+          },
+          "Refractored.FloatingActionButtonForms": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           },
           "Xam.Plugin.Geolocator": {
             "target": "Package",
