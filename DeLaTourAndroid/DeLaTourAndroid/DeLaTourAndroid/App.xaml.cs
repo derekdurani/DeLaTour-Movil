@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DeLaTourAndroid.Vista;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,11 +8,13 @@ namespace DeLaTourAndroid
 {
     public partial class App : Application
     {
+        public NavigationPage PrincipalPage { get; set; }
+        public NavigationPage PinPage { get; set; }
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

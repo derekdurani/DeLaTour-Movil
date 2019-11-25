@@ -10,26 +10,28 @@ namespace DeLaTourAndroid.Controlador
 {
     class UsuarioController
     {
-        public async Task<Usuario> Login(UsuarioController usuario)
+        public async Task<usuarios> Login(usuarios usuario)
         {
-            Usuario _usuario = new Usuario();
+            usuarios _usuario = new usuarios();
             HttpClient client = new HttpClient();
             var json = JsonConvert.SerializeObject(usuario);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await client.PostAsync(Helpers.apiUrl + "login-usuario", content);
             string jsonString = await response.Content.ReadAsStringAsync();
-            return _usuario = JsonConvert.DeserializeObject<Usuario>(jsonString);
+            char[] Chars = { '[', ']' };
+            string newJsonString = jsonString.Trim(Chars);
+            return _usuario = JsonConvert.DeserializeObject<usuarios>(newJsonString);
         }
 
-        public async Task<Usuario> Registrar(UsuarioController usuario)
+        public async Task<usuarios> Registrar(usuarios usuario)
         {
-            Usuario _usuario = new Usuario();
+            usuarios _usuario = new usuarios();
             HttpClient client = new HttpClient();
             var json = JsonConvert.SerializeObject(usuario);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await client.PostAsync(Helpers.apiUrl + "save-usuario", content);
             string jsonString = await response.Content.ReadAsStringAsync();
-            return _usuario = JsonConvert.DeserializeObject<Usuario>(jsonString);
+            return _usuario = JsonConvert.DeserializeObject<usuarios>(jsonString);
         }
     }
 }

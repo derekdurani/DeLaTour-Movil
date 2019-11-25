@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DeLaTourAndroid.Modelo
 {
-    public class Coords
+    public class coords
     {
         public float latitud { get; set; }
         public float longitud { get; set; }

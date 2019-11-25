@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeLaTourAndroid.Android", "DeLaTourAndroid\DeLaTourAndroid.Android\DeLaTourAndroid.Android.csproj", "{BACB1DBE-9699-42CC-9237-8A121F1CAB7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeLaTourAndroid", "DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.csproj", "{57879333-853D-47CC-A639-9945B8D27199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeLaTourAndroid", "DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid.csproj", "{57879333-853D-47CC-A639-9945B8D27199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

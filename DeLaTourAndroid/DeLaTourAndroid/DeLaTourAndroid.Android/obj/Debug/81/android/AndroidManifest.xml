@@ -4,13 +4,26 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.location.gps" />
+  <uses-feature android:name="android.hardware.location.network" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
   <application android:label="DeLaTourAndroid.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyAw4lz-9sD4TC2hRA4bHC3EVisafi_vdUE" />
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="DeLaTourAndroid" android:theme="@style/MainTheme" android:name="md59119721a6d9c3083430a488e136b5cd4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <service android:name="md5dcb6eccdc824e0677ffae8ccdde42930.KeepAliveService" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.BatteryBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.EnergySaverBroadcastReceiver" />
+    <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="md5d630c3d3bfb5f5558520331566132d97.ConnectivityBroadcastReceiver" />
+    <provider android:authorities="com.companyname.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="xamarin.essentials.fileProvider">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/xamarin_essentials_fileprovider_file_paths" />
+    </provider>
     <receiver android:enabled="true" android:exported="false" android:name="md51558244f76c53b6aeda52c8a337f2c37.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
@@ -20,5 +33,7 @@
         <category android:name="mono.android.intent.category.SEPPUKU.com.companyname" />
       </intent-filter>
     </receiver>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
   </application>
 </manifest>

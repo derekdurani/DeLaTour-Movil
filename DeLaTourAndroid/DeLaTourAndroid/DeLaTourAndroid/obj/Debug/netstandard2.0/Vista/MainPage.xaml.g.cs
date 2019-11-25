@@ -16,25 +16,29 @@ namespace DeLaTourAndroid {
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Vista\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::DeLaTourAndroid.RoundedEntry txtCodigo;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ProgressBar pgrBar;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::DeLaTourAndroid.RoundedEntry txtCorreo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::DeLaTourAndroid.RoundedEntry txtContrasenia;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button onLogin;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button onIniciarSesion;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button onSignIn;
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button onRegitrarse;
         
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
-            txtCodigo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::DeLaTourAndroid.RoundedEntry>(this, "txtCodigo");
+            pgrBar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ProgressBar>(this, "pgrBar");
+            txtCorreo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::DeLaTourAndroid.RoundedEntry>(this, "txtCorreo");
             txtContrasenia = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::DeLaTourAndroid.RoundedEntry>(this, "txtContrasenia");
-            onLogin = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "onLogin");
-            onSignIn = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "onSignIn");
+            onIniciarSesion = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "onIniciarSesion");
+            onRegitrarse = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "onRegitrarse");
         }
     }
 }
