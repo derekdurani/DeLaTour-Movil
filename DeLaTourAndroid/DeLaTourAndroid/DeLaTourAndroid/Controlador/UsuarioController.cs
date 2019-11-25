@@ -31,7 +31,9 @@ namespace DeLaTourAndroid.Controlador
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var response = await client.PostAsync(Helpers.apiUrl + "save-usuario", content);
             string jsonString = await response.Content.ReadAsStringAsync();
-            return _usuario = JsonConvert.DeserializeObject<usuarios>(jsonString);
+            char[] Chars = { '[', ']' };
+            string newJsonString = jsonString.Trim(Chars);
+            return _usuario = JsonConvert.DeserializeObject<usuarios>(newJsonString);
         }
     }
 }

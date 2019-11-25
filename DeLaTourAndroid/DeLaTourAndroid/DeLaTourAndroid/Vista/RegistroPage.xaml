@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DeLaTourAndroid"
+             x:Class="DeLaTourAndroid.Vista.RegistroPage">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#142856">
+            <StackLayout Padding="12,12,12,12">
+                <Image Source="delatour.png" HeightRequest="300" WidthRequest="300" HorizontalOptions="Center"/>
+                <ProgressBar Visual="Material" x:Name="pgrBar" IsEnabled="False" IsVisible="False" ProgressColor="#F00A2A"/>
+            </StackLayout>
+            <StackLayout Padding="8,24,8,8">
+                <local:RoundedEntry FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Placeholder="Nombre" WidthRequest="370" x:Name="txtNombre" Margin="4,4,4,4"/>
+                <local:RoundedEntry Keyboard="Email" FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Placeholder="Correo electrónico" WidthRequest="370" x:Name="txtCorreo" Margin="4,4,4,4"/>
+                <local:RoundedEntry FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" IsPassword="True" VerticalOptions="Center" Placeholder="Contraseña" WidthRequest="370" x:Name="txtContrasenia" Margin="4,4,4,4"/>
+                <local:RoundedEntry FontFamily="WorkSans-Regular.ttf#WorkSans-Regular" HorizontalOptions="CenterAndExpand" IsPassword="True" VerticalOptions="Center" Placeholder="Confirmar contraseña" WidthRequest="370" x:Name="txtContrasenia2" Margin="4,4,4,4"/>
+            </StackLayout>
+            <StackLayout Padding="8,12,8,8">
+                <Button BackgroundColor="#142856" WidthRequest="300" TextColor="#FFFFFF" FontFamily="WorkSans-Medium.ttf#WorkSans-Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" x:Name="onRegitrarse" Clicked="OnRegitrarse_Clicked" Text="Registrarse" BorderRadius="30"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="70"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

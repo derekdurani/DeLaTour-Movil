@@ -15,9 +15,9 @@ namespace DeLaTourAndroid
         public MainPage()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);          
         }
-
+       
         private async void OnIniciarSesion_Clicked(object sender, EventArgs e)
         {
             UsuarioController usuarioController = new UsuarioController();
@@ -26,26 +26,31 @@ namespace DeLaTourAndroid
             {
                 if (txtCorreo.Text != "" && txtContrasenia.Text != "" && txtCorreo.Text != null && txtContrasenia.Text != null)
                 {
-                    usuario.correo = txtCorreo.Text;
-                    usuario.contrasenia = txtContrasenia.Text;
-                    pgrBar.Progress = 0;
-                    pgrBar.IsVisible = true;
-                    await pgrBar.ProgressTo(1, 1000, Easing.Linear);
-                    usuario = await usuarioController.Login(usuario);
-                    pgrBar.IsVisible = false;
-                    if (usuario.nombre != "" || usuario.nombre != null)
+                    if (IsValidEmail(txtCorreo.Text))
                     {
-                        if (usuario.estatus == 0)
+                        usuario.correo = txtCorreo.Text;
+                        usuario.contrasenia = txtContrasenia.Text;
+                        pgrBar.Progress = 0;
+                        pgrBar.IsVisible = true;
+                        await pgrBar.ProgressTo(1, 1000, Easing.Linear);
+                        usuario = await usuarioController.Login(usuario);
+                        pgrBar.IsVisible = false;
+                        if (usuario.nombre != "" || usuario.nombre != null)
                         {
-                            DependencyService.Get<IToast>().LongAlert($"Bienvenido {usuario.nombre}");
-                            Navigation.InsertPageBefore(new PrincipalPage(), this);
-                            await Navigation.PopAsync().ConfigureAwait(false);
+                            if (usuario.estatus == 0)
+                            {
+                                DependencyService.Get<IToast>().LongAlert($"Bienvenido {usuario.nombre}");
+                                Navigation.InsertPageBefore(new PrincipalPage(), this);
+                                await Navigation.PopAsync().ConfigureAwait(false);
+                            }
+                            else
+                                DependencyService.Get<IToast>().LongAlert("Tu usuario no tiene acceso a este sistema");
                         }
                         else
-                            DependencyService.Get<IToast>().LongAlert("Tu usuario no tiene acceso a este sistema");
+                            DependencyService.Get<IToast>().LongAlert("Código / Contraseña incorrectos");
                     }
                     else
-                        DependencyService.Get<IToast>().LongAlert("Código / Contraseña incorrectos");
+                        DependencyService.Get<IToast>().LongAlert("Correo electrónico no válido");
                 }
                 else
                     DependencyService.Get<IToast>().LongAlert("Faltan campos por llenar");
@@ -58,7 +63,20 @@ namespace DeLaTourAndroid
 
         private void OnRegitrarse_Clicked(object sender, EventArgs e)
         {
-            
+            Navigation.PushModalAsync(new RegistroPage());
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

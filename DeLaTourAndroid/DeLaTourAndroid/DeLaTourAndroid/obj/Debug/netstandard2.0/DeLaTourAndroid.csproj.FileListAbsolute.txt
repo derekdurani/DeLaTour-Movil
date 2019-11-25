@@ -8,7 +8,7 @@ C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAn
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.AssemblyInfo.cs
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.dll
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.pdb
-C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\DeLaTourAndroid.csprojAssemblyReference.cache
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\Vista\PrincipalPage.xaml.g.cs
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\Vista\PinPage.xaml.g.cs
+C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\Vista\RegistroPage.xaml.g.cs
 C:\Users\franc\Desktop\DeLaTour-Movil\DeLaTourAndroid\DeLaTourAndroid\DeLaTourAndroid\obj\Debug\netstandard2.0\XamlC.stamp

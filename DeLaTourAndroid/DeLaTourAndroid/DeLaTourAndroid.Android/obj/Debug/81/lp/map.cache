@@ -3,6 +3,8 @@ FormsViewGroup
 Newtonsoft.Json
 Plugin.CurrentActivity
 Plugin.Geolocator
+Plugin.LocalNotifications.Abstractions
+Plugin.LocalNotifications
 Plugin.Permissions
 System.Runtime
 Xamarin.Android.Arch.Core.Common

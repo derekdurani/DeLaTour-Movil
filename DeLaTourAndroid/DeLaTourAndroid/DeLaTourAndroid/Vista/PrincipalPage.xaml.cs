@@ -12,6 +12,8 @@ using Xamarin.Forms.Xaml;
 using DeLaTourAndroid.Modelo;
 using Xamarin.Essentials;
 using Plugin.Geolocator;
+using System.Timers;
+using Plugin.LocalNotifications;
 
 namespace DeLaTourAndroid.Vista
 {
@@ -35,6 +37,10 @@ namespace DeLaTourAndroid.Vista
             var pinController = new PinController();
             List<pines> pines = new List<pines>();
             pines = await pinController.GetPinesAgregados();
+            for (int i = 0; i < pines.Count; i++)
+            {
+                pines[i].flag = false;
+            }
             pinesGlobal = pines;
 
             map = new Xamarin.Forms.Maps.Map()
@@ -43,7 +49,7 @@ namespace DeLaTourAndroid.Vista
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 IsShowingUser  = true,
-                HasScrollEnabled = false
+                HasScrollEnabled = true
             };
             
             stackLayout = new StackLayout
@@ -91,12 +97,12 @@ namespace DeLaTourAndroid.Vista
             var coord2 = new Location(pin.Position.Latitude, pin.Position.Longitude);
 
             var distance = Location.CalculateDistance(coord1,coord2,DistanceUnits.Kilometers);
-            DependencyService.Get<IToast>().LongAlert($"Distancia: {distance.ToString()}");
+            DependencyService.Get<IToast>().LongAlert($"Distancia: {(distance*1000).ToString()} metros");
         }
 
         async Task StartListening()
         {
-            await CrossGeolocator.Current.StartListeningAsync(TimeSpan.FromSeconds(5), 10, true, new Plugin.Geolocator.Abstractions.ListenerSettings
+            await CrossGeolocator.Current.StartListeningAsync(TimeSpan.FromSeconds(3), 10, true, new Plugin.Geolocator.Abstractions.ListenerSettings
             {
                 ActivityType = Plugin.Geolocator.Abstractions.ActivityType.AutomotiveNavigation,
                 AllowBackgroundUpdates = true,
@@ -109,7 +115,6 @@ namespace DeLaTourAndroid.Vista
 
             CrossGeolocator.Current.PositionChanged += Current_PositionChanged;
         }
-
         private void Current_PositionChanged(object sender, Plugin.Geolocator.Abstractions.PositionEventArgs e)
         {
             Device.BeginInvokeOnMainThread(() =>
@@ -120,9 +125,20 @@ namespace DeLaTourAndroid.Vista
                 {
                     Location pinLocation = new Location(pinesGlobal[i].coords.latitud, pinesGlobal[i].coords.longitud);
                     var distance = Location.CalculateDistance(gpsLocation, pinLocation, DistanceUnits.Kilometers);
-                    if(distance <= 0.070)
-                        DependencyService.Get<IToast>().LongAlert($"Estas cerca del: {pinesGlobal[i].titulo.ToString()}");
-                }
+                    if(!pinesGlobal[i].flag)
+                        if(distance <= 0.040)
+                        {
+                            Timer timer = new Timer();
+                            timer.Interval = (5000);
+                            timer.Enabled = true;
+                            timer.Start();
+                            CrossLocalNotifications.Current.Show("Lugar de interés", $"Cerca de ti se encuentra {pinesGlobal[i].titulo}", 0, DateTime.Now);
+                            pinesGlobal[i].flag = true;
+                        }else if(distance >= 0.070)
+                        {
+                            pinesGlobal[i].flag = false;
+                        }
+                }                          
             });
         }
     }

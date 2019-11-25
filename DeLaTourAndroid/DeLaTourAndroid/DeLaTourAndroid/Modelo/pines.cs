@@ -11,5 +11,6 @@ namespace DeLaTourAndroid.Modelo
         public coords coords { get; set; }
         public int estatus { get; set; }
         public string imagen { get; set; }
+        public bool flag { get; set; }
     }
 }
