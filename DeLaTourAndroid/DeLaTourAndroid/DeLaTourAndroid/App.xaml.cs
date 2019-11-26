@@ -14,7 +14,7 @@ namespace DeLaTourAndroid
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PrincipalPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

@@ -4285,25 +4285,6 @@ namespace DeLaTourAndroid.Droid
 			}
 		}
 		
-		public partial class Array
-		{
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_default_control_buttons = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_default_control_buttons = 1;
-			
-			static Array()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Array()
-			{
-			}
-		}
-		
 		public partial class Attribute
 		{
 			
@@ -4409,15 +4390,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
-			// aapt resource value: 0x1
-			public const int adSize = 1;
-			
-			// aapt resource value: 0x1
-			public const int adSizes = 1;
-			
-			// aapt resource value: 0x1
-			public const int adUnitId = 1;
-			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
 			
@@ -4430,9 +4402,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040026
 			public const int alertDialogTheme = 2130968614;
 			
-			// aapt resource value: 0x1
-			public const int allowShortcuts = 1;
-			
 			// aapt resource value: 0x7F040027
 			public const int allowStacking = 2130968615;
 			
@@ -4442,11 +4411,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
 			
-			// aapt resource value: 0x1
-			public const int ambientEnabled = 1;
-			
-			// aapt resource value: 0x1
-			public const int appTheme = 1;
+			// aapt resource value: 0x7F010013
+			public const int ambientEnabled = 2130771987;
 			
 			// aapt resource value: 0x7F04002A
 			public const int arrowHeadLength = 2130968618;
@@ -4538,8 +4504,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
-			// aapt resource value: 0x7F080382
-			public const int buttonSize = 2131231618;
+			// aapt resource value: 0x7F01001A
+			public const int buttonSize = 2130771994;
 			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
@@ -4553,38 +4519,26 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F04004B
 			public const int buttonTintMode = 2130968651;
 			
-			// aapt resource value: 0x1
-			public const int buyButtonAppearance = 1;
+			// aapt resource value: 0x7F010004
+			public const int cameraBearing = 2130771972;
 			
-			// aapt resource value: 0x1
-			public const int buyButtonHeight = 1;
+			// aapt resource value: 0x7F010015
+			public const int cameraMaxZoomPreference = 2130771989;
 			
-			// aapt resource value: 0x1
-			public const int buyButtonText = 1;
+			// aapt resource value: 0x7F010014
+			public const int cameraMinZoomPreference = 2130771988;
 			
-			// aapt resource value: 0x1
-			public const int buyButtonWidth = 1;
+			// aapt resource value: 0x7F010005
+			public const int cameraTargetLat = 2130771973;
 			
-			// aapt resource value: 0x1
-			public const int cameraBearing = 1;
+			// aapt resource value: 0x7F010006
+			public const int cameraTargetLng = 2130771974;
 			
-			// aapt resource value: 0x1
-			public const int cameraMaxZoomPreference = 1;
+			// aapt resource value: 0x7F010007
+			public const int cameraTilt = 2130771975;
 			
-			// aapt resource value: 0x1
-			public const int cameraMinZoomPreference = 1;
-			
-			// aapt resource value: 0x1
-			public const int cameraTargetLat = 1;
-			
-			// aapt resource value: 0x1
-			public const int cameraTargetLng = 1;
-			
-			// aapt resource value: 0x1
-			public const int cameraTilt = 1;
-			
-			// aapt resource value: 0x1
-			public const int cameraZoom = 1;
+			// aapt resource value: 0x7F010008
+			public const int cameraZoom = 2130771976;
 			
 			// aapt resource value: 0x7F040001
 			public const int cardBackgroundColor = 2130968577;
@@ -4604,104 +4558,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040006
 			public const int cardUseCompatPadding = 2130968582;
 			
-			// aapt resource value: 0x1
-			public const int castBackground = 1;
-			
-			// aapt resource value: 0x1
-			public const int castBackgroundColor = 1;
-			
-			// aapt resource value: 0x1
-			public const int castButtonBackgroundColor = 1;
-			
-			// aapt resource value: 0x1
-			public const int castButtonColor = 1;
-			
-			// aapt resource value: 0x1
-			public const int castButtonText = 1;
-			
-			// aapt resource value: 0x1
-			public const int castButtonTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int castClosedCaptionsButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castControlButtons = 1;
-			
-			// aapt resource value: 0x1
-			public const int castExpandedControllerStyle = 1;
-			
-			// aapt resource value: 0x1
-			public const int castExpandedControllerToolbarStyle = 1;
-			
-			// aapt resource value: 0x1
-			public const int castFocusRadius = 1;
-			
-			// aapt resource value: 0x1
-			public const int castForward30ButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castIntroOverlayStyle = 1;
-			
-			// aapt resource value: 0x1
-			public const int castLargePauseButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castLargePlayButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castLargeStopButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castMiniControllerStyle = 1;
-			
-			// aapt resource value: 0x1
-			public const int castMuteToggleButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castPauseButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castPlayButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castProgressBarColor = 1;
-			
-			// aapt resource value: 0x1
-			public const int castRewind30ButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castSeekBarProgressDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castSeekBarThumbDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castShowImageThumbnail = 1;
-			
-			// aapt resource value: 0x1
-			public const int castSkipNextButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castSkipPreviousButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castStopButtonDrawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int castSubtitleTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int castTitleTextAppearance = 1;
-			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
 			
-			// aapt resource value: 0x7F080381
-			public const int circleCrop = 2131231617;
+			// aapt resource value: 0x7F010002
+			public const int circleCrop = 2130771970;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -4751,8 +4615,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
-			// aapt resource value: 0x7F080383
-			public const int colorScheme = 2131231619;
+			// aapt resource value: 0x7F01001B
+			public const int colorScheme = 2130771995;
 			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
@@ -4796,20 +4660,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F04000B
 			public const int contentPaddingTop = 2130968587;
 			
-			// aapt resource value: 0x1
-			public const int contentProviderUri = 1;
-			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
 			
 			// aapt resource value: 0x7F040068
 			public const int controlBackground = 2130968680;
-			
-			// aapt resource value: 0x1
-			public const int corpusId = 1;
-			
-			// aapt resource value: 0x1
-			public const int corpusVersion = 1;
 			
 			// aapt resource value: 0x7F040069
 			public const int counterEnabled = 2130968681;
@@ -4825,15 +4680,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F04006D
 			public const int customNavigationLayout = 2130968685;
-			
-			// aapt resource value: 0x1
-			public const int defaultIntentAction = 1;
-			
-			// aapt resource value: 0x1
-			public const int defaultIntentActivity = 1;
-			
-			// aapt resource value: 0x1
-			public const int defaultIntentData = 1;
 			
 			// aapt resource value: 0x7F04006E
 			public const int defaultQueryHint = 2130968686;
@@ -4859,9 +4705,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040075
 			public const int dividerVertical = 2130968693;
 			
-			// aapt resource value: 0x1
-			public const int documentMaxAgeSecs = 1;
-			
 			// aapt resource value: 0x7F040076
 			public const int drawableSize = 2130968694;
 			
@@ -4885,9 +4728,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F04007D
 			public const int elevation = 2130968701;
-			
-			// aapt resource value: 0x1
-			public const int environment = 1;
 			
 			// aapt resource value: 0x7F04007E
 			public const int errorEnabled = 2130968702;
@@ -4928,23 +4768,23 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040089
 			public const int fabSize = 2130968713;
 			
-			// aapt resource value: 0x7F080004
-			public const int fab_colorDisabled = 2131230724;
+			// aapt resource value: 0x7F080033
+			public const int fab_colorDisabled = 2131230771;
 			
-			// aapt resource value: 0x7F080003
-			public const int fab_colorNormal = 2131230723;
+			// aapt resource value: 0x7F080032
+			public const int fab_colorNormal = 2131230770;
 			
-			// aapt resource value: 0x7F080002
-			public const int fab_colorPressed = 2131230722;
+			// aapt resource value: 0x7F080031
+			public const int fab_colorPressed = 2131230769;
 			
-			// aapt resource value: 0x7F080005
-			public const int fab_colorRipple = 2131230725;
+			// aapt resource value: 0x7F080034
+			public const int fab_colorRipple = 2131230772;
 			
-			// aapt resource value: 0x7F080006
-			public const int fab_shadow = 2131230726;
+			// aapt resource value: 0x7F080035
+			public const int fab_shadow = 2131230773;
 			
-			// aapt resource value: 0x7F080007
-			public const int fab_size = 2131230727;
+			// aapt resource value: 0x7F080036
+			public const int fab_size = 2131230774;
 			
 			// aapt resource value: 0x7F04008A
 			public const int fastScrollEnabled = 2130968714;
@@ -4960,9 +4800,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F04008E
 			public const int fastScrollVerticalTrackDrawable = 2130968718;
-			
-			// aapt resource value: 0x1
-			public const int featureType = 1;
 			
 			// aapt resource value: 0x7F040001
 			public const int font = 2130968577;
@@ -4996,12 +4833,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F040099
 			public const int foregroundInsidePadding = 2130968729;
-			
-			// aapt resource value: 0x1
-			public const int fragmentMode = 1;
-			
-			// aapt resource value: 0x1
-			public const int fragmentStyle = 1;
 			
 			// aapt resource value: 0x7F04009A
 			public const int gapBetweenBars = 2130968730;
@@ -5045,11 +4876,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
-			// aapt resource value: 0x7F080380
-			public const int imageAspectRatio = 2131231616;
+			// aapt resource value: 0x7F010001
+			public const int imageAspectRatio = 2130771969;
 			
-			// aapt resource value: 0x7F080379
-			public const int imageAspectRatioAdjust = 2131231609;
+			// aapt resource value: 0x7F010000
+			public const int imageAspectRatioAdjust = 2130771968;
 			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
@@ -5057,14 +4888,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400A9
 			public const int indeterminateProgressStyle = 2130968745;
 			
-			// aapt resource value: 0x1
-			public const int indexPrefixes = 1;
-			
 			// aapt resource value: 0x7F0400AA
 			public const int initialActivityCount = 2130968746;
-			
-			// aapt resource value: 0x1
-			public const int inputEnabled = 1;
 			
 			// aapt resource value: 0x7F0400AB
 			public const int insetForeground = 2130968747;
@@ -5090,17 +4915,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400B2
 			public const int keylines = 2130968754;
 			
-			// aapt resource value: 0x1
-			public const int latLngBoundsNorthEastLatitude = 1;
+			// aapt resource value: 0x7F010018
+			public const int latLngBoundsNorthEastLatitude = 2130771992;
 			
-			// aapt resource value: 0x1
-			public const int latLngBoundsNorthEastLongitude = 1;
+			// aapt resource value: 0x7F010019
+			public const int latLngBoundsNorthEastLongitude = 2130771993;
 			
-			// aapt resource value: 0x1
-			public const int latLngBoundsSouthWestLatitude = 1;
+			// aapt resource value: 0x7F010016
+			public const int latLngBoundsSouthWestLatitude = 2130771990;
 			
-			// aapt resource value: 0x1
-			public const int latLngBoundsSouthWestLongitude = 1;
+			// aapt resource value: 0x7F010017
+			public const int latLngBoundsSouthWestLongitude = 2130771991;
 			
 			// aapt resource value: 0x7F0400B3
 			public const int layout = 2130968755;
@@ -5171,8 +4996,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400C9
 			public const int listPreferredItemPaddingRight = 2130968777;
 			
-			// aapt resource value: 0x1
-			public const int liteMode = 1;
+			// aapt resource value: 0x7F010009
+			public const int liteMode = 2130771977;
 			
 			// aapt resource value: 0x7F0400CA
 			public const int logo = 2130968778;
@@ -5180,29 +5005,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400CB
 			public const int logoDescription = 2130968779;
 			
-			// aapt resource value: 0x1
-			public const int mapType = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsBackground = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsButtonBackground = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsButtonTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsHeaderTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsLogoImageType = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsLogoTextColor = 1;
-			
-			// aapt resource value: 0x1
-			public const int maskedWalletDetailsTextAppearance = 1;
+			// aapt resource value: 0x7F010003
+			public const int mapType = 2130771971;
 			
 			// aapt resource value: 0x7F0400CC
 			public const int maxActionInlineWidth = 2130968780;
@@ -5267,9 +5071,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400D3
 			public const int navigationMode = 2130968787;
 			
-			// aapt resource value: 0x1
-			public const int noIndex = 1;
-			
 			// aapt resource value: 0x7F0400D4
 			public const int numericModifiers = 2130968788;
 			
@@ -5297,12 +5098,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400DC
 			public const int panelMenuListWidth = 2130968796;
 			
-			// aapt resource value: 0x1
-			public const int paramName = 1;
-			
-			// aapt resource value: 0x1
-			public const int paramValue = 1;
-			
 			// aapt resource value: 0x7F0400DD
 			public const int passwordToggleContentDescription = 2130968797;
 			
@@ -5317,9 +5112,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0400E1
 			public const int passwordToggleTintMode = 2130968801;
-			
-			// aapt resource value: 0x1
-			public const int perAccountTemplate = 1;
 			
 			// aapt resource value: 0x7F0400E2
 			public const int popupMenuStyle = 2130968802;
@@ -5366,14 +5158,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400F0
 			public const int rippleColor = 2130968816;
 			
-			// aapt resource value: 0x1
-			public const int schemaOrgProperty = 1;
-			
-			// aapt resource value: 0x1
-			public const int schemaOrgType = 1;
-			
-			// aapt resource value: 0x7F080384
-			public const int scopeUris = 2131231620;
+			// aapt resource value: 0x7F01001C
+			public const int scopeUris = 2130771996;
 			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
@@ -5381,35 +5167,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0400F2
 			public const int scrimVisibleHeightTrigger = 2130968818;
 			
-			// aapt resource value: 0x1
-			public const int searchEnabled = 1;
-			
 			// aapt resource value: 0x7F0400F3
 			public const int searchHintIcon = 2130968819;
 			
 			// aapt resource value: 0x7F0400F4
 			public const int searchIcon = 2130968820;
 			
-			// aapt resource value: 0x1
-			public const int searchLabel = 1;
-			
 			// aapt resource value: 0x7F0400F5
 			public const int searchViewStyle = 2130968821;
-			
-			// aapt resource value: 0x1
-			public const int sectionContent = 1;
-			
-			// aapt resource value: 0x1
-			public const int sectionFormat = 1;
-			
-			// aapt resource value: 0x1
-			public const int sectionId = 1;
-			
-			// aapt resource value: 0x1
-			public const int sectionType = 1;
-			
-			// aapt resource value: 0x1
-			public const int sectionWeight = 1;
 			
 			// aapt resource value: 0x7F0400F6
 			public const int seekBarStyle = 2130968822;
@@ -5419,12 +5184,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0400F8
 			public const int selectableItemBackgroundBorderless = 2130968824;
-			
-			// aapt resource value: 0x1
-			public const int semanticallySearchable = 1;
-			
-			// aapt resource value: 0x1
-			public const int settingsDescription = 1;
 			
 			// aapt resource value: 0x7F0400F9
 			public const int showAsAction = 2130968825;
@@ -5440,9 +5199,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0400FD
 			public const int singleChoiceItemLayout = 2130968829;
-			
-			// aapt resource value: 0x1
-			public const int sourceClass = 1;
 			
 			// aapt resource value: 0x7F0400FE
 			public const int spanCount = 2130968830;
@@ -5485,9 +5241,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F04010B
 			public const int submitBackground = 2130968843;
-			
-			// aapt resource value: 0x1
-			public const int subsectionSeparator = 1;
 			
 			// aapt resource value: 0x7F04010C
 			public const int subtitle = 2130968844;
@@ -5663,9 +5416,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F040145
 			public const int titleTextStyle = 2130968901;
 			
-			// aapt resource value: 0x1
-			public const int toAddressesSection = 1;
-			
 			// aapt resource value: 0x7F040146
 			public const int toolbarId = 2130968902;
 			
@@ -5674,9 +5424,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F040148
 			public const int toolbarStyle = 2130968904;
-			
-			// aapt resource value: 0x1
-			public const int toolbarTextColorStyle = 1;
 			
 			// aapt resource value: 0x7F040149
 			public const int tooltipForegroundColor = 2130968905;
@@ -5696,44 +5443,32 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F04014E
 			public const int trackTintMode = 2130968910;
 			
-			// aapt resource value: 0x1
-			public const int trimmable = 1;
+			// aapt resource value: 0x7F01000A
+			public const int uiCompass = 2130771978;
 			
-			// aapt resource value: 0x1
-			public const int uiCompass = 1;
+			// aapt resource value: 0x7F010012
+			public const int uiMapToolbar = 2130771986;
 			
-			// aapt resource value: 0x1
-			public const int uiMapToolbar = 1;
+			// aapt resource value: 0x7F01000B
+			public const int uiRotateGestures = 2130771979;
 			
-			// aapt resource value: 0x1
-			public const int uiRotateGestures = 1;
+			// aapt resource value: 0x7F01000C
+			public const int uiScrollGestures = 2130771980;
 			
-			// aapt resource value: 0x1
-			public const int uiScrollGestures = 1;
+			// aapt resource value: 0x7F01000D
+			public const int uiTiltGestures = 2130771981;
 			
-			// aapt resource value: 0x1
-			public const int uiTiltGestures = 1;
+			// aapt resource value: 0x7F01000E
+			public const int uiZoomControls = 2130771982;
 			
-			// aapt resource value: 0x1
-			public const int uiZoomControls = 1;
-			
-			// aapt resource value: 0x1
-			public const int uiZoomGestures = 1;
+			// aapt resource value: 0x7F01000F
+			public const int uiZoomGestures = 2130771983;
 			
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
 			
-			// aapt resource value: 0x1
-			public const int userInputSection = 1;
-			
-			// aapt resource value: 0x1
-			public const int userInputTag = 1;
-			
-			// aapt resource value: 0x1
-			public const int userInputValue = 1;
-			
-			// aapt resource value: 0x1
-			public const int useViewLifecycle = 1;
+			// aapt resource value: 0x7F010010
+			public const int useViewLifecycle = 2130771984;
 			
 			// aapt resource value: 0x7F040150
 			public const int voiceIcon = 2130968912;
@@ -5768,11 +5503,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F04015A
 			public const int windowNoTitle = 2130968922;
 			
-			// aapt resource value: 0x1
-			public const int windowTransitionStyle = 1;
-			
-			// aapt resource value: 0x1
-			public const int zOrderOnTop = 1;
+			// aapt resource value: 0x7F010011
+			public const int zOrderOnTop = 2130771985;
 			
 			static Attribute()
 			{
@@ -5941,39 +5673,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F060004
 			public const int cardview_shadow_start_color = 2131099652;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_container_white_stripe_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_label_background_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_background_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_progress_text_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_seek_bar_progress_background_tint_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_text_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_background_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_button_background_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_outer_highlight_default_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_body_color = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
-			
 			// aapt resource value: 0x7F050005
 			public const int colorAccent = 2131034117;
 			
@@ -5983,38 +5682,38 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F050004
 			public const int colorPrimaryDark = 2131034116;
 			
-			// aapt resource value: 0x7F050106
-			public const int common_google_signin_btn_text_dark = 2131034374;
+			// aapt resource value: 0x7F060008
+			public const int common_google_signin_btn_text_dark = 2131099656;
 			
-			// aapt resource value: 0x7F050109
-			public const int common_google_signin_btn_text_dark_default = 2131034377;
+			// aapt resource value: 0x7F060000
+			public const int common_google_signin_btn_text_dark_default = 2131099648;
 			
-			// aapt resource value: 0x7F050110
-			public const int common_google_signin_btn_text_dark_disabled = 2131034384;
+			// aapt resource value: 0x7F060001
+			public const int common_google_signin_btn_text_dark_disabled = 2131099649;
 			
-			// aapt resource value: 0x7F050111
-			public const int common_google_signin_btn_text_dark_focused = 2131034385;
+			// aapt resource value: 0x7F060002
+			public const int common_google_signin_btn_text_dark_focused = 2131099650;
 			
-			// aapt resource value: 0x7F050112
-			public const int common_google_signin_btn_text_dark_pressed = 2131034386;
+			// aapt resource value: 0x7F060003
+			public const int common_google_signin_btn_text_dark_pressed = 2131099651;
 			
-			// aapt resource value: 0x7F050107
-			public const int common_google_signin_btn_text_light = 2131034375;
+			// aapt resource value: 0x7F060009
+			public const int common_google_signin_btn_text_light = 2131099657;
 			
-			// aapt resource value: 0x7F050113
-			public const int common_google_signin_btn_text_light_default = 2131034387;
+			// aapt resource value: 0x7F060004
+			public const int common_google_signin_btn_text_light_default = 2131099652;
 			
-			// aapt resource value: 0x7F050114
-			public const int common_google_signin_btn_text_light_disabled = 2131034388;
+			// aapt resource value: 0x7F060005
+			public const int common_google_signin_btn_text_light_disabled = 2131099653;
 			
-			// aapt resource value: 0x7F050115
-			public const int common_google_signin_btn_text_light_focused = 2131034389;
+			// aapt resource value: 0x7F060006
+			public const int common_google_signin_btn_text_light_focused = 2131099654;
+			
+			// aapt resource value: 0x7F060007
+			public const int common_google_signin_btn_text_light_pressed = 2131099655;
 			
 			// aapt resource value: 0x7F050116
-			public const int common_google_signin_btn_text_light_pressed = 2131034390;
-			
-			// aapt resource value: 0x7F050108
-			public const int common_google_signin_btn_tint = 2131034376;
+			public const int common_google_signin_btn_tint = 2131034390;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -6064,8 +5763,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F060036
 			public const int error_color_material = 2131099702;
 			
-			// aapt resource value: 0x7F050006
-			public const int fab_material_blue_500 = 2131034118;
+			// aapt resource value: 0x7F050016
+			public const int fab_material_blue_500 = 2131034134;
 			
 			// aapt resource value: 0x7F060037
 			public const int foreground_material_dark = 2131099703;
@@ -6126,24 +5825,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F060049
 			public const int notification_material_background_media_default_color = 2131099721;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_primary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_primary_text_highlight = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_secondary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_search_hint = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_search_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_separator = 1;
 			
 			// aapt resource value: 0x7F06004A
 			public const int primary_dark_material_dark = 2131099722;
@@ -6210,45 +5891,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F06005F
 			public const int tooltip_background_light = 2131099743;
-			
-			// aapt resource value: 0x1
-			public const int wallet_bright_foreground_disabled_holo_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_bright_foreground_holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_bright_foreground_holo_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_dim_foreground_disabled_holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_dim_foreground_holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_highlighted_text_holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_highlighted_text_holo_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_hint_foreground_holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_hint_foreground_holo_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_holo_blue_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_link_text_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_primary_text_holo_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_secondary_text_holo_dark = 1;
 			
 			static Color()
 			{
@@ -6493,93 +6135,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F080003
 			public const int cardview_default_radius = 2131230723;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_background_layout_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_background_layout_width = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_layout_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_layout_width = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_control_button_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_control_toolbar_min_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_margin_between_seek_bar_and_control_buttons = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_margin_between_status_text_and_seek_bar = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_seekbar_disabled_alpha = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_button_margin_bottom = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_focus_radius = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_title_margin_top = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_center_horizontal_offset = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_center_threshold = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_inner_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_inner_radius = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_outer_padding = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_body_size = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_header_size = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_horizontal_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_horizontal_offset = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_max_width = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_text_vertical_space = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_control_button_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_icon_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_icon_width = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_notification_image_size = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_no_message_text_size = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_row_text_size = 1;
 			
 			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
@@ -6832,36 +6387,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F080014
 			public const int notification_top_pad_large_text = 2131230740;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_button_padding = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_powered_by_google_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_powered_by_google_start = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_height = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_horizontal_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_primary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_secondary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_progress_horizontal_margin = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_progress_size = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_separator_start = 1;
 			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
@@ -7152,230 +6677,101 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F010002
 			public const int add = 2130771970;
 			
+			// aapt resource value: 0x7F020000
+			public const int amu_bubble_mask = 2130837504;
+			
+			// aapt resource value: 0x7F020001
+			public const int amu_bubble_shadow = 2130837505;
+			
 			// aapt resource value: 0x7F090054
 			public const int avd_hide_password = 2131296340;
 			
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
-			// aapt resource value: 0x1
-			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
+			// aapt resource value: 0x7F020002
+			public const int common_full_open_on_phone = 2130837506;
 			
-			// aapt resource value: 0x1
-			public const int cast_abc_scrubber_control_to_pressed_mtrl_000 = 1;
+			// aapt resource value: 0x7F020003
+			public const int common_google_signin_btn_icon_dark = 2130837507;
 			
-			// aapt resource value: 0x1
-			public const int cast_abc_scrubber_control_to_pressed_mtrl_005 = 1;
+			// aapt resource value: 0x7F020004
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837508;
 			
-			// aapt resource value: 0x1
-			public const int cast_abc_scrubber_primary_mtrl_alpha = 1;
+			// aapt resource value: 0x7F020005
+			public const int common_google_signin_btn_icon_dark_focused = 2130837509;
 			
-			// aapt resource value: 0x1
-			public const int cast_album_art_placeholder = 1;
+			// aapt resource value: 0x7F020006
+			public const int common_google_signin_btn_icon_dark_normal = 2130837510;
 			
-			// aapt resource value: 0x1
-			public const int cast_album_art_placeholder_large = 1;
+			// aapt resource value: 0x7F010339
+			public const int common_google_signin_btn_icon_dark_normal_background = 2130772793;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_actionbar_bg_gradient_light = 1;
+			// aapt resource value: 0x7F020007
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837511;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_bg_gradient_light = 1;
+			// aapt resource value: 0x7F010337
+			public const int common_google_signin_btn_icon_disabled = 2130772791;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_seekbar_thumb = 1;
+			// aapt resource value: 0x7F020008
+			public const int common_google_signin_btn_icon_light = 2130837512;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_seekbar_track = 1;
+			// aapt resource value: 0x7F020009
+			public const int common_google_signin_btn_icon_light_disabled = 2130837513;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_closed_caption = 1;
+			// aapt resource value: 0x7F02000A
+			public const int common_google_signin_btn_icon_light_focused = 2130837514;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_forward30 = 1;
+			// aapt resource value: 0x7F02000B
+			public const int common_google_signin_btn_icon_light_normal = 2130837515;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_mute = 1;
+			// aapt resource value: 0x7F010340
+			public const int common_google_signin_btn_icon_light_normal_background = 2130772800;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_pause = 1;
+			// aapt resource value: 0x7F02000C
+			public const int common_google_signin_btn_icon_light_pressed = 2130837516;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_play = 1;
+			// aapt resource value: 0x7F02000D
+			public const int common_google_signin_btn_text_dark = 2130837517;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_rewind30 = 1;
+			// aapt resource value: 0x7F02000E
+			public const int common_google_signin_btn_text_dark_disabled = 2130837518;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_skip_next = 1;
+			// aapt resource value: 0x7F02000F
+			public const int common_google_signin_btn_text_dark_focused = 2130837519;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_skip_previous = 1;
+			// aapt resource value: 0x7F020010
+			public const int common_google_signin_btn_text_dark_normal = 2130837520;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_expanded_controller_stop = 1;
+			// aapt resource value: 0x7F010341
+			public const int common_google_signin_btn_text_dark_normal_background = 2130772801;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_closed_caption = 1;
+			// aapt resource value: 0x7F020011
+			public const int common_google_signin_btn_text_dark_pressed = 2130837521;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_forward30 = 1;
+			// aapt resource value: 0x7F010338
+			public const int common_google_signin_btn_text_disabled = 2130772792;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_mute = 1;
+			// aapt resource value: 0x7F020012
+			public const int common_google_signin_btn_text_light = 2130837522;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_pause = 1;
+			// aapt resource value: 0x7F020013
+			public const int common_google_signin_btn_text_light_disabled = 2130837523;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_pause_large = 1;
+			// aapt resource value: 0x7F020014
+			public const int common_google_signin_btn_text_light_focused = 2130837524;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_play = 1;
+			// aapt resource value: 0x7F020015
+			public const int common_google_signin_btn_text_light_normal = 2130837525;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_play_large = 1;
+			// aapt resource value: 0x7F010342
+			public const int common_google_signin_btn_text_light_normal_background = 2130772802;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_rewind30 = 1;
+			// aapt resource value: 0x7F020016
+			public const int common_google_signin_btn_text_light_pressed = 2130837526;
 			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_skip_next = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_skip_prev = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_stop = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_mini_controller_stop_large = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_0 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_1 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_2 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_connecting = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_disconnect = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_forward = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_forward10 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_forward30 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_on = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_pause = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_play = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_rewind = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_rewind10 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_rewind30 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_skip_next = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_skip_prev = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_small_icon = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_notification_stop_live_stream = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_stop_circle_filled_grey600 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_ic_stop_circle_filled_white = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_gradient_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller_progress_drawable = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_skip_ad_label_border = 1;
-			
-			// aapt resource value: 0x7F010327
-			public const int common_full_open_on_phone = 2130772775;
-			
-			// aapt resource value: 0x7F010313
-			public const int common_google_signin_btn_icon_dark = 2130772755;
-			
-			// aapt resource value: 0x7F010314
-			public const int common_google_signin_btn_icon_dark_focused = 2130772756;
-			
-			// aapt resource value: 0x7F010315
-			public const int common_google_signin_btn_icon_dark_normal = 2130772757;
-			
-			// aapt resource value: 0x7F010328
-			public const int common_google_signin_btn_icon_dark_normal_background = 2130772776;
-			
-			// aapt resource value: 0x7F010316
-			public const int common_google_signin_btn_icon_disabled = 2130772758;
-			
-			// aapt resource value: 0x7F010317
-			public const int common_google_signin_btn_icon_light = 2130772759;
-			
-			// aapt resource value: 0x7F010318
-			public const int common_google_signin_btn_icon_light_focused = 2130772760;
-			
-			// aapt resource value: 0x7F010319
-			public const int common_google_signin_btn_icon_light_normal = 2130772761;
-			
-			// aapt resource value: 0x7F010329
-			public const int common_google_signin_btn_icon_light_normal_background = 2130772777;
-			
-			// aapt resource value: 0x7F010320
-			public const int common_google_signin_btn_text_dark = 2130772768;
-			
-			// aapt resource value: 0x7F010321
-			public const int common_google_signin_btn_text_dark_focused = 2130772769;
-			
-			// aapt resource value: 0x7F010322
-			public const int common_google_signin_btn_text_dark_normal = 2130772770;
-			
-			// aapt resource value: 0x7F010330
-			public const int common_google_signin_btn_text_dark_normal_background = 2130772784;
-			
-			// aapt resource value: 0x7F010323
-			public const int common_google_signin_btn_text_disabled = 2130772771;
-			
-			// aapt resource value: 0x7F010324
-			public const int common_google_signin_btn_text_light = 2130772772;
-			
-			// aapt resource value: 0x7F010325
-			public const int common_google_signin_btn_text_light_focused = 2130772773;
-			
-			// aapt resource value: 0x7F010326
-			public const int common_google_signin_btn_text_light_normal = 2130772774;
-			
-			// aapt resource value: 0x7F010331
-			public const int common_google_signin_btn_text_light_normal_background = 2130772785;
+			// aapt resource value: 0x7F020017
+			public const int common_ic_googleplayservices = 2130837527;
 			
 			// aapt resource value: 0x7F010003
 			public const int delatour = 2130771971;
@@ -7404,17 +6800,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010008
-			public const int fab_shadow = 2130771976;
+			// aapt resource value: 0x7F010032
+			public const int fab_shadow = 2130772018;
 			
-			// aapt resource value: 0x7F010009
-			public const int fab_shadow_mini = 2130771977;
+			// aapt resource value: 0x7F010033
+			public const int fab_shadow_mini = 2130772019;
 			
-			// aapt resource value: 0x7F010332
-			public const int googleg_disabled_color_18 = 2130772786;
+			// aapt resource value: 0x7F010343
+			public const int googleg_disabled_color_18 = 2130772803;
 			
-			// aapt resource value: 0x7F010333
-			public const int googleg_standard_color_18 = 2130772787;
+			// aapt resource value: 0x7F010344
+			public const int googleg_standard_color_18 = 2130772804;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -7929,18 +7325,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
-			// aapt resource value: 0x1
-			public const int ic_plusone_medium_off_client = 1;
-			
-			// aapt resource value: 0x1
-			public const int ic_plusone_small_off_client = 1;
-			
-			// aapt resource value: 0x1
-			public const int ic_plusone_standard_off_client = 1;
-			
-			// aapt resource value: 0x1
-			public const int ic_plusone_tall_off_client = 1;
-			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -8058,143 +7442,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x1
-			public const int places_ic_clear = 1;
-			
-			// aapt resource value: 0x1
-			public const int places_ic_search = 1;
-			
-			// aapt resource value: 0x7F010007
-			public const int plugin_lc_smallicon = 2130771975;
-			
-			// aapt resource value: 0x1
-			public const int powered_by_google_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int powered_by_google_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_art_track_grey600_48 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_bigtop_updates_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_cast_connected_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_cast_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_clear_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_closed_caption_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_closed_caption_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_forward_10_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_forward_30_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_forward_30_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_forward_30_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_keyboard_arrow_down_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_pause_circle_filled_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_pause_circle_filled_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_pause_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_pause_grey600_48 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_pause_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_play_arrow_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_play_arrow_grey600_48 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_play_arrow_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_play_circle_filled_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_play_circle_filled_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_refresh_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_replay_10_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_replay_30_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_replay_30_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_replay_30_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_replay_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_next_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_next_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_next_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_previous_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_previous_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_skip_previous_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_stop_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_stop_grey600_48 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_stop_white_24 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_volume_off_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_volume_off_white_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_volume_up_grey600_36 = 1;
-			
-			// aapt resource value: 0x1
-			public const int quantum_ic_volume_up_white_36 = 1;
+			// aapt resource value: 0x7F010031
+			public const int plugin_lc_smallicon = 2130772017;
 			
 			// aapt resource value: 0x7F010006
 			public const int RoundedEditText = 2130771974;
@@ -8281,152 +7530,47 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
-			// aapt resource value: 0x7F020187
-			public const int adjust_height = 2130837895;
+			// aapt resource value: 0x7F070001
+			public const int adjust_height = 2131165185;
 			
-			// aapt resource value: 0x7F020186
-			public const int adjust_width = 2130837894;
-			
-			// aapt resource value: 0x1
-			public const int ad_container = 1;
-			
-			// aapt resource value: 0x1
-			public const int ad_image_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int ad_in_progress_label = 1;
-			
-			// aapt resource value: 0x1
-			public const int ad_label = 1;
+			// aapt resource value: 0x7F070002
+			public const int adjust_width = 2131165186;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x1
-			public const int android_pay = 1;
+			// aapt resource value: 0x7F070000
+			public const int amu_text = 2131165184;
 			
-			// aapt resource value: 0x1
-			public const int android_pay_dark = 1;
+			// aapt resource value: 0x7F020198
+			public const int app_name = 2130837912;
 			
-			// aapt resource value: 0x1
-			public const int android_pay_light = 1;
-			
-			// aapt resource value: 0x1
-			public const int android_pay_light_with_border = 1;
-			
-			// aapt resource value: 0x7F020193
-			public const int APP_NAME = 2130837907;
-			
-			// aapt resource value: 0x7F020185
-			public const int app_name = 2130837893;
+			// aapt resource value: 0x7F020199
+			public const int APP_NAME = 2130837913;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
-			// aapt resource value: 0x1
-			public const int audio_list_view = 1;
-			
-			// aapt resource value: 0x7F0C0018
-			public const int auto = 2131492888;
-			
-			// aapt resource value: 0x1
-			public const int background_image_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int background_place_holder_image_view = 1;
+			// aapt resource value: 0x7F07000B
+			public const int auto = 2131165195;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
-			// aapt resource value: 0x1
-			public const int blurred_background_image_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int book_now = 1;
-			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020174
-			public const int bottomtab.navarea = 2130837876;
+			// aapt resource value: 0x7F020187
+			public const int bottomtab.navarea = 2130837895;
 			
-			// aapt resource value: 0x7F020175
-			public const int bottomtab.tabbar = 2130837877;
-			
-			// aapt resource value: 0x1
-			public const int button = 1;
+			// aapt resource value: 0x7F020188
+			public const int bottomtab.tabbar = 2130837896;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
-			// aapt resource value: 0x1
-			public const int button_0 = 1;
-			
-			// aapt resource value: 0x1
-			public const int button_1 = 1;
-			
-			// aapt resource value: 0x1
-			public const int button_2 = 1;
-			
-			// aapt resource value: 0x1
-			public const int button_3 = 1;
-			
-			// aapt resource value: 0x1
-			public const int button_play_pause_toggle = 1;
-			
-			// aapt resource value: 0x1
-			public const int buyButton = 1;
-			
-			// aapt resource value: 0x1
-			public const int buy_now = 1;
-			
-			// aapt resource value: 0x1
-			public const int buy_with = 1;
-			
-			// aapt resource value: 0x1
-			public const int buy_with_google = 1;
-			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_closed_caption = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_custom = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_empty = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_forward_30_seconds = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_mute_toggle = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_play_pause_toggle = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_rewind_30_seconds = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_skip_next = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_button_type_skip_previous = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_featurehighlight_help_text_body_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_featurehighlight_help_text_header_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_featurehighlight_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_notification_id = 1;
 			
 			// aapt resource value: 0x7F0C001D
 			public const int center = 2131492893;
@@ -8437,35 +7581,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x1
-			public const int classic = 1;
-			
-			// aapt resource value: 0x7F020184
-			public const int collectionViewStyle = 2130837892;
-			
-			// aapt resource value: 0x1
-			public const int contact = 1;
+			// aapt resource value: 0x7F020197
+			public const int collectionViewStyle = 2130837911;
 			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
 			
-			// aapt resource value: 0x1
-			public const int container_all = 1;
-			
-			// aapt resource value: 0x1
-			public const int container_current = 1;
-			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
-			// aapt resource value: 0x1
-			public const int controllers = 1;
-			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
-			
-			// aapt resource value: 0x1
-			public const int crash_reporting_present = 1;
 			
 			// aapt resource value: 0x7F0C0023
 			public const int custom = 2131492899;
@@ -8473,23 +7599,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
-			// aapt resource value: 0x7F020191
-			public const int dark = 2130837905;
-			
-			// aapt resource value: 0x1
-			public const int date = 1;
+			// aapt resource value: 0x7F07000C
+			public const int dark = 2131165196;
 			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
-			
-			// aapt resource value: 0x1
-			public const int demote_common_words = 1;
-			
-			// aapt resource value: 0x1
-			public const int demote_rfc822_hostnames = 1;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -8506,29 +7623,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
-			// aapt resource value: 0x1
-			public const int donate_with = 1;
-			
-			// aapt resource value: 0x1
-			public const int donate_with_google = 1;
-			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
-			
-			// aapt resource value: 0x1
-			public const int email = 1;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
 			
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
-			
-			// aapt resource value: 0x1
-			public const int end_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int expanded_controller_layout = 1;
 			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
@@ -8542,11 +7644,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F020176
-			public const int flyoutcontent_appbar = 2130837878;
+			// aapt resource value: 0x7F020189
+			public const int flyoutcontent_appbar = 2130837897;
 			
-			// aapt resource value: 0x7F020177
-			public const int flyoutcontent_recycler = 2130837879;
+			// aapt resource value: 0x7F020190
+			public const int flyoutcontent_recycler = 2130837904;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -8554,32 +7656,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
-			// aapt resource value: 0x1
-			public const int google_wallet_classic = 1;
-			
-			// aapt resource value: 0x1
-			public const int google_wallet_grayscale = 1;
-			
-			// aapt resource value: 0x1
-			public const int google_wallet_monochrome = 1;
-			
-			// aapt resource value: 0x1
-			public const int grayscale = 1;
-			
-			// aapt resource value: 0x1
-			public const int holo_dark = 1;
-			
-			// aapt resource value: 0x1
-			public const int holo_light = 1;
-			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x1
-			public const int html = 1;
-			
-			// aapt resource value: 0x1
-			public const int hybrid = 1;
+			// aapt resource value: 0x7F070004
+			public const int hybrid = 2131165188;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -8587,41 +7668,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
-			// aapt resource value: 0x7F020190
-			public const int icon_only = 2130837904;
-			
-			// aapt resource value: 0x1
-			public const int icon_uri = 1;
-			
-			// aapt resource value: 0x1
-			public const int icon_view = 1;
+			// aapt resource value: 0x7F070008
+			public const int icon_only = 2131165192;
 			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x1
-			public const int index_entity_types = 1;
-			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
-			
-			// aapt resource value: 0x1
-			public const int instant_message = 1;
-			
-			// aapt resource value: 0x1
-			public const int intent_action = 1;
-			
-			// aapt resource value: 0x1
-			public const int intent_activity = 1;
-			
-			// aapt resource value: 0x1
-			public const int intent_data = 1;
-			
-			// aapt resource value: 0x1
-			public const int intent_data_id = 1;
-			
-			// aapt resource value: 0x1
-			public const int intent_extra_data = 1;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -8632,26 +7686,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C003C
 			public const int largeLabel = 2131492924;
 			
-			// aapt resource value: 0x1
-			public const int large_icon_uri = 1;
-			
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
 			
-			// aapt resource value: 0x1
-			public const int license = 1;
-			
-			// aapt resource value: 0x1
-			public const int license_activity_scrollview = 1;
-			
-			// aapt resource value: 0x1
-			public const int license_activity_textview = 1;
-			
-			// aapt resource value: 0x1
-			public const int license_list = 1;
-			
-			// aapt resource value: 0x7F020192
-			public const int light = 2130837906;
+			// aapt resource value: 0x7F07000D
+			public const int light = 2131165197;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -8665,38 +7704,20 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x1
-			public const int live_stream_indicator = 1;
+			// aapt resource value: 0x7F020191
+			public const int main.appbar = 2130837905;
 			
-			// aapt resource value: 0x1
-			public const int live_stream_seek_bar = 1;
+			// aapt resource value: 0x7F020193
+			public const int main.tablayout = 2130837907;
 			
-			// aapt resource value: 0x1
-			public const int loading_indicator = 1;
+			// aapt resource value: 0x7F020192
+			public const int main.toolbar = 2130837906;
 			
-			// aapt resource value: 0x1
-			public const int logo_only = 1;
-			
-			// aapt resource value: 0x7F020178
-			public const int main.appbar = 2130837880;
-			
-			// aapt resource value: 0x7F020180
-			public const int main.tablayout = 2130837888;
-			
-			// aapt resource value: 0x7F020179
-			public const int main.toolbar = 2130837881;
-			
-			// aapt resource value: 0x7F020181
-			public const int main.viewpager = 2130837889;
+			// aapt resource value: 0x7F020194
+			public const int main.viewpager = 2130837908;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
-			
-			// aapt resource value: 0x1
-			public const int match_global_nicknames = 1;
-			
-			// aapt resource value: 0x1
-			public const int match_parent = 1;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
@@ -8704,11 +7725,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
 			
-			// aapt resource value: 0x7F020005
-			public const int mini = 2130837509;
-			
-			// aapt resource value: 0x1
-			public const int monochrome = 1;
+			// aapt resource value: 0x7F020020
+			public const int mini = 2130837536;
 			
 			// aapt resource value: 0x7F0C0033
 			public const int mr_art = 2131492915;
@@ -8791,11 +7809,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F0C0048
-			public const int none = 2131492936;
+			// aapt resource value: 0x7F070003
+			public const int none = 2131165187;
 			
-			// aapt resource value: 0x7F020004
-			public const int normal = 2130837508;
+			// aapt resource value: 0x7F070005
+			public const int normal = 2131165189;
 			
 			// aapt resource value: 0x7F0C0011
 			public const int notification_background = 2131492881;
@@ -8805,15 +7823,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
-			
-			// aapt resource value: 0x1
-			public const int no_licenses_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int omnibox_title_section = 1;
-			
-			// aapt resource value: 0x1
-			public const int omnibox_url_section = 1;
 			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
@@ -8827,39 +7836,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_clear_button = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_powered_by_google = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_primary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_prediction_secondary_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_progress = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_search_button = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_search_input = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_separator = 1;
-			
-			// aapt resource value: 0x1
-			public const int plain = 1;
-			
-			// aapt resource value: 0x1
-			public const int production = 1;
-			
-			// aapt resource value: 0x1
-			public const int progressBar = 1;
-			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
 			
@@ -8868,9 +7844,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
-			
-			// aapt resource value: 0x1
-			public const int rfc822 = 1;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -8881,11 +7854,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
 			
-			// aapt resource value: 0x1
-			public const int sandbox = 1;
-			
-			// aapt resource value: 0x1
-			public const int satellite = 1;
+			// aapt resource value: 0x7F070006
+			public const int satellite = 2131165190;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -8941,29 +7911,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0068
 			public const int search_voice_btn = 2131492968;
 			
-			// aapt resource value: 0x1
-			public const int seek_bar = 1;
-			
-			// aapt resource value: 0x1
-			public const int seek_bar_controls = 1;
-			
-			// aapt resource value: 0x1
-			public const int selectionDetails = 1;
-			
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F020182
-			public const int shellcontent.appbar = 2130837890;
+			// aapt resource value: 0x7F020195
+			public const int shellcontent.appbar = 2130837909;
 			
-			// aapt resource value: 0x7F020183
-			public const int shellcontent.toolbar = 2130837891;
+			// aapt resource value: 0x7F020196
+			public const int shellcontent.toolbar = 2130837910;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
-			
-			// aapt resource value: 0x1
-			public const int slide = 1;
 			
 			// aapt resource value: 0x7F020002
 			public const int sliding_tabs = 2130837506;
@@ -8992,23 +7950,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
-			// aapt resource value: 0x7F020188
-			public const int standard = 2130837896;
+			// aapt resource value: 0x7F070009
+			public const int standard = 2131165193;
 			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
-			// aapt resource value: 0x1
-			public const int start_text = 1;
-			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
-			
-			// aapt resource value: 0x1
-			public const int status_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int strict_sandbox = 1;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -9016,29 +7965,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
 			
-			// aapt resource value: 0x1
-			public const int subtitle_view = 1;
-			
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
-			
-			// aapt resource value: 0x1
-			public const int tab_host = 1;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
-			// aapt resource value: 0x1
-			public const int terrain = 1;
-			
-			// aapt resource value: 0x1
-			public const int test = 1;
+			// aapt resource value: 0x7F070007
+			public const int terrain = 2131165191;
 			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
-			
-			// aapt resource value: 0x1
-			public const int text1 = 1;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
@@ -9055,17 +7992,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x1
-			public const int textTitle = 1;
-			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
-			
-			// aapt resource value: 0x1
-			public const int text_list_view = 1;
-			
-			// aapt resource value: 0x1
-			public const int thing_proto = 1;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
@@ -9078,9 +8006,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
-			
-			// aapt resource value: 0x1
-			public const int title_view = 1;
 			
 			// aapt resource value: 0x7F020003
 			public const int toolbar = 2130837507;
@@ -9115,9 +8040,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x1
-			public const int url = 1;
-			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
 			
@@ -9127,8 +8049,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
-			// aapt resource value: 0x7F020189
-			public const int wide = 2130837897;
+			// aapt resource value: 0x7F07000F
+			public const int webview = 2131165199;
+			
+			// aapt resource value: 0x7F07000A
+			public const int wide = 2131165194;
+			
+			// aapt resource value: 0x7F07000E
+			public const int window = 2131165198;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -9161,17 +8089,14 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0D0005
 			public const int cancel_button_image_alpha = 2131558405;
 			
-			// aapt resource value: 0x1
-			public const int cast_libraries_material_featurehighlight_pulse_base_alpha = 1;
-			
 			// aapt resource value: 0x7F0D0006
 			public const int config_tooltipAnimTime = 2131558406;
 			
 			// aapt resource value: 0x7F0D0007
 			public const int design_snackbar_text_max_lines = 2131558407;
 			
-			// aapt resource value: 0x1
-			public const int google_play_services_version = 1;
+			// aapt resource value: 0x7F080000
+			public const int google_play_services_version = 2131230720;
 			
 			// aapt resource value: 0x7F0D0008
 			public const int hide_password_duration = 2131558408;
@@ -9301,26 +8226,17 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F030070
-			public const int BottomTabLayout = 2130903152;
+			// aapt resource value: 0x7F030000
+			public const int amu_info_window = 2130903040;
 			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_activity = 1;
+			// aapt resource value: 0x7F030001
+			public const int amu_text_bubble = 2130903041;
 			
-			// aapt resource value: 0x1
-			public const int cast_help_text = 1;
+			// aapt resource value: 0x7F030002
+			public const int amu_webview = 2130903042;
 			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mini_controller = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_layout = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_row_layout = 1;
+			// aapt resource value: 0x7F030073
+			public const int BottomTabLayout = 2130903155;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -9364,20 +8280,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F030071
-			public const int FlyoutContent = 2130903153;
-			
-			// aapt resource value: 0x1
-			public const int libraries_social_licenses_license = 1;
-			
-			// aapt resource value: 0x1
-			public const int libraries_social_licenses_license_activity = 1;
-			
-			// aapt resource value: 0x1
-			public const int libraries_social_licenses_license_menu_activity = 1;
-			
-			// aapt resource value: 0x1
-			public const int license_menu_activity_no_licenses = 1;
+			// aapt resource value: 0x7F030074
+			public const int FlyoutContent = 2130903156;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int mr_chooser_dialog = 2131689499;
@@ -9442,20 +8346,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_fragment = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_item_powered_by_google = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_item_prediction = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_progress = 1;
-			
-			// aapt resource value: 0x7F030072
-			public const int RootLayout = 2130903154;
+			// aapt resource value: 0x7F030075
+			public const int RootLayout = 2130903157;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -9466,8 +8358,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F030073
-			public const int ShellContent = 2130903155;
+			// aapt resource value: 0x7F030076
+			public const int ShellContent = 2130903158;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -9480,9 +8372,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
-			
-			// aapt resource value: 0x1
-			public const int wallet_test_layout = 1;
 			
 			static Layout()
 			{
@@ -9519,8 +8408,65 @@ namespace DeLaTourAndroid.Droid
 		public partial class Raw
 		{
 			
-			// aapt resource value: 0x1
-			public const int keep_third_party_licenses = 1;
+			// aapt resource value: 0x7F040000
+			public const int amu_ballon_gx_prefix = 2130968576;
+			
+			// aapt resource value: 0x7F040001
+			public const int amu_basic_folder = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int amu_basic_placemark = 2130968578;
+			
+			// aapt resource value: 0x7F040003
+			public const int amu_cdata = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int amu_default_balloon = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int amu_document_nest = 2130968581;
+			
+			// aapt resource value: 0x7F040006
+			public const int amu_draw_order_ground_overlay = 2130968582;
+			
+			// aapt resource value: 0x7F040007
+			public const int amu_extended_data = 2130968583;
+			
+			// aapt resource value: 0x7F040008
+			public const int amu_ground_overlay = 2130968584;
+			
+			// aapt resource value: 0x7F040009
+			public const int amu_ground_overlay_color = 2130968585;
+			
+			// aapt resource value: 0x7F04000A
+			public const int amu_inline_style = 2130968586;
+			
+			// aapt resource value: 0x7F04000B
+			public const int amu_multigeometry_placemarks = 2130968587;
+			
+			// aapt resource value: 0x7F04000C
+			public const int amu_multiple_placemarks = 2130968588;
+			
+			// aapt resource value: 0x7F04000D
+			public const int amu_nested_folders = 2130968589;
+			
+			// aapt resource value: 0x7F04000E
+			public const int amu_nested_multigeometry = 2130968590;
+			
+			// aapt resource value: 0x7F04000F
+			public const int amu_poly_style_boolean_alpha = 2130968591;
+			
+			// aapt resource value: 0x7F040010
+			public const int amu_poly_style_boolean_numeric = 2130968592;
+			
+			// aapt resource value: 0x7F040011
+			public const int amu_unknwown_folder = 2130968593;
+			
+			// aapt resource value: 0x7F040012
+			public const int amu_unsupported = 2130968594;
+			
+			// aapt resource value: 0x7F040013
+			public const int amu_visibility_ground_overlay = 2130968595;
 			
 			static Raw()
 			{
@@ -9625,197 +8571,80 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
-			// aapt resource value: 0x7F100003
-			public const int ApplicationName = 2131755011;
+			// aapt resource value: 0x7F100023
+			public const int ApplicationName = 2131755043;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
-			// aapt resource value: 0x1
-			public const int cast_ad_label = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_casting_to_device = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_closed_captions = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_closed_captions_unavailable = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_connecting_to_device = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_disconnect = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_image_description = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_ad_in_progress = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_background_image = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_live_stream_indicator = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_loading = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_expanded_controller_skip_ad_label = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_forward = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_forward_10 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_forward_30 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_intro_overlay_button_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_invalid_stream_duration_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_invalid_stream_position_text = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_mute = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_notification_connected_message = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_notification_connecting_message = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_notification_disconnect = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_pause = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_play = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_rewind = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_rewind_10 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_rewind_30 = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_seek_bar = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_skip_next = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_skip_prev = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_stop = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_stop_live_stream = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_audio = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_cancel = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_closed_captions = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_default_track_name = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_none = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_ok = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_tracks_chooser_dialog_subtitles = 1;
-			
-			// aapt resource value: 0x1
-			public const int cast_unmute = 1;
-			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
 			
-			// aapt resource value: 0x7F100064
-			public const int common_google_play_services_enable_button = 2131755108;
+			// aapt resource value: 0x7F050000
+			public const int common_google_play_services_enable_button = 2131034112;
 			
-			// aapt resource value: 0x7F100065
-			public const int common_google_play_services_enable_text = 2131755109;
+			// aapt resource value: 0x7F050001
+			public const int common_google_play_services_enable_text = 2131034113;
 			
-			// aapt resource value: 0x7F100066
-			public const int common_google_play_services_enable_title = 2131755110;
+			// aapt resource value: 0x7F050002
+			public const int common_google_play_services_enable_title = 2131034114;
 			
-			// aapt resource value: 0x7F100067
-			public const int common_google_play_services_install_button = 2131755111;
+			// aapt resource value: 0x7F050003
+			public const int common_google_play_services_install_button = 2131034115;
 			
-			// aapt resource value: 0x7F100068
-			public const int common_google_play_services_install_text = 2131755112;
+			// aapt resource value: 0x7F100084
+			public const int common_google_play_services_install_text = 2131755140;
 			
-			// aapt resource value: 0x7F100069
-			public const int common_google_play_services_install_title = 2131755113;
+			// aapt resource value: 0x7F050004
+			public const int common_google_play_services_install_text_phone = 2131034116;
 			
-			// aapt resource value: 0x7F100070
-			public const int common_google_play_services_notification_ticker = 2131755120;
+			// aapt resource value: 0x7F050005
+			public const int common_google_play_services_install_text_tablet = 2131034117;
 			
-			// aapt resource value: 0x1
-			public const int common_google_play_services_unknown_issue = 1;
+			// aapt resource value: 0x7F050006
+			public const int common_google_play_services_install_title = 2131034118;
 			
-			// aapt resource value: 0x7F100071
-			public const int common_google_play_services_unsupported_text = 2131755121;
+			// aapt resource value: 0x7F050007
+			public const int common_google_play_services_notification_ticker = 2131034119;
 			
-			// aapt resource value: 0x7F100072
-			public const int common_google_play_services_update_button = 2131755122;
+			// aapt resource value: 0x7F050008
+			public const int common_google_play_services_unknown_issue = 2131034120;
 			
-			// aapt resource value: 0x7F100073
-			public const int common_google_play_services_update_text = 2131755123;
+			// aapt resource value: 0x7F050009
+			public const int common_google_play_services_unsupported_text = 2131034121;
 			
-			// aapt resource value: 0x7F100074
-			public const int common_google_play_services_update_title = 2131755124;
+			// aapt resource value: 0x7F05000A
+			public const int common_google_play_services_unsupported_title = 2131034122;
 			
-			// aapt resource value: 0x7F100075
-			public const int common_google_play_services_updating_text = 2131755125;
+			// aapt resource value: 0x7F05000B
+			public const int common_google_play_services_update_button = 2131034123;
 			
-			// aapt resource value: 0x7F100076
-			public const int common_google_play_services_wear_update_text = 2131755126;
+			// aapt resource value: 0x7F05000C
+			public const int common_google_play_services_update_text = 2131034124;
 			
-			// aapt resource value: 0x7F100077
-			public const int common_open_on_phone = 2131755127;
+			// aapt resource value: 0x7F05000D
+			public const int common_google_play_services_update_title = 2131034125;
 			
-			// aapt resource value: 0x7F100078
-			public const int common_signin_button_text = 2131755128;
+			// aapt resource value: 0x7F05000E
+			public const int common_google_play_services_updating_text = 2131034126;
 			
-			// aapt resource value: 0x7F100079
-			public const int common_signin_button_text_long = 2131755129;
+			// aapt resource value: 0x7F05000F
+			public const int common_google_play_services_updating_title = 2131034127;
 			
-			// aapt resource value: 0x1
-			public const int fcm_fallback_notification_channel_label = 1;
+			// aapt resource value: 0x7F050010
+			public const int common_google_play_services_wear_update_text = 2131034128;
 			
-			// aapt resource value: 0x1
-			public const int gcm_fallback_notification_channel_label = 1;
+			// aapt resource value: 0x7F050011
+			public const int common_open_on_phone = 2131034129;
 			
-			// aapt resource value: 0x7F100002
-			public const int Hello = 2131755010;
+			// aapt resource value: 0x7F050012
+			public const int common_signin_button_text = 2131034130;
 			
-			// aapt resource value: 0x1
-			public const int license_content_error = 1;
+			// aapt resource value: 0x7F050013
+			public const int common_signin_button_text_long = 2131034131;
+			
+			// aapt resource value: 0x7F100022
+			public const int Hello = 2131755042;
 			
 			// aapt resource value: 0x7F15001E
 			public const int mr_button_content_description = 2132082718;
@@ -9880,12 +8709,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F150032
 			public const int mr_user_route_category_name = 2132082738;
 			
-			// aapt resource value: 0x1
-			public const int no_licenses_available = 1;
-			
-			// aapt resource value: 0x1
-			public const int oss_license_title = 1;
-			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;
 			
@@ -9901,50 +8724,11 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F150025
 			public const int path_password_strike_through = 2132082725;
 			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_clear_button = 1;
-			
-			// aapt resource value: 0x1
-			public const int place_autocomplete_search_hint = 1;
-			
-			// aapt resource value: 0x1
-			public const int preferences_license_summary = 1;
-			
-			// aapt resource value: 0x1
-			public const int s1 = 1;
-			
-			// aapt resource value: 0x1
-			public const int s2 = 1;
-			
-			// aapt resource value: 0x1
-			public const int s3 = 1;
-			
-			// aapt resource value: 0x1
-			public const int s4 = 1;
-			
-			// aapt resource value: 0x1
-			public const int s5 = 1;
-			
-			// aapt resource value: 0x1
-			public const int s6 = 1;
-			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
 			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
-			
-			// aapt resource value: 0x1
-			public const int tagmanager_preview_dialog_button = 1;
-			
-			// aapt resource value: 0x1
-			public const int tagmanager_preview_dialog_message = 1;
-			
-			// aapt resource value: 0x1
-			public const int tagmanager_preview_dialog_title = 1;
-			
-			// aapt resource value: 0x1
-			public const int wallet_buy_button_place_holder = 1;
 			
 			static String()
 			{
@@ -9964,6 +8748,15 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F160002
 			public const int AlertDialog_AppCompat_Light = 2132148226;
+			
+			// aapt resource value: 0x7F090000
+			public const int amu_Bubble_TextAppearance_Dark = 2131296256;
+			
+			// aapt resource value: 0x7F090001
+			public const int amu_Bubble_TextAppearance_Light = 2131296257;
+			
+			// aapt resource value: 0x7F090002
+			public const int amu_ClusterIcon_TextAppearance = 2131296258;
 			
 			// aapt resource value: 0x7F160003
 			public const int Animation_AppCompat_Dialog = 2132148227;
@@ -10481,20 +9274,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
-			// aapt resource value: 0x1
-			public const int CastExpandedController = 1;
-			
-			// aapt resource value: 0x1
-			public const int CastIntroOverlay = 1;
-			
-			// aapt resource value: 0x1
-			public const int CastMiniController = 1;
-			
-			// aapt resource value: 0x7F060404
-			public const int collectionViewStyle = 2131100676;
-			
-			// aapt resource value: 0x1
-			public const int CustomCastTheme = 1;
+			// aapt resource value: 0x7F060407
+			public const int collectionViewStyle = 2131100679;
 			
 			// aapt resource value: 0x7F060002
 			public const int MainTheme = 2131099650;
@@ -10730,18 +9511,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F1600F5
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2132148469;
 			
-			// aapt resource value: 0x1
-			public const int TextAppearance_CastIntroOverlay_Button = 1;
-			
-			// aapt resource value: 0x1
-			public const int TextAppearance_CastIntroOverlay_Title = 1;
-			
-			// aapt resource value: 0x1
-			public const int TextAppearance_CastMiniController_Subtitle = 1;
-			
-			// aapt resource value: 0x1
-			public const int TextAppearance_CastMiniController_Title = 1;
-			
 			// aapt resource value: 0x7F160001
 			public const int TextAppearance_Compat_Notification = 2132148225;
 			
@@ -10901,12 +9670,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F160125
 			public const int Theme_AppCompat_NoActionBar = 2132148517;
 			
-			// aapt resource value: 0x1
-			public const int Theme_AppInvite_Preview = 1;
-			
-			// aapt resource value: 0x1
-			public const int Theme_AppInvite_Preview_Base = 1;
-			
 			// aapt resource value: 0x7F160126
 			public const int Theme_Design = 2132148518;
 			
@@ -10925,9 +9688,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7F16012B
 			public const int Theme_Design_NoActionBar = 2132148523;
 			
-			// aapt resource value: 0x1
-			public const int Theme_IAPTheme = 1;
-			
 			// aapt resource value: 0x7F16011E
 			public const int Theme_MediaRouter = 2132148510;
 			
@@ -10939,18 +9699,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x7F160121
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2132148513;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentDefaultButtonTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentDefaultDetailsHeaderTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentDefaultDetailsTextAppearance = 1;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentDefaultStyle = 1;
 			
 			// aapt resource value: 0x7F16012C
 			public const int Widget_AppCompat_ActionBar = 2132148524;
@@ -11260,11 +10008,11 @@ namespace DeLaTourAndroid.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070054
-			public const int ActionBarLayout_android_layout_gravity = 2131165268;
+			// aapt resource value: 0x7F070086
+			public const int ActionBarLayout_android_layout_gravity = 2131165318;
 			
-			// aapt resource value: 0x7F070024
-			public const int ActionBar_background = 2131165220;
+			// aapt resource value: 0x7F070056
+			public const int ActionBar_background = 2131165270;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -11353,8 +10101,8 @@ namespace DeLaTourAndroid.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070056
-			public const int ActionMenuItemView_android_minWidth = 2131165270;
+			// aapt resource value: 0x7F070088
+			public const int ActionMenuItemView_android_minWidth = 2131165320;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -11364,8 +10112,8 @@ namespace DeLaTourAndroid.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F070058
-			public const int ActionMode_background = 2131165272;
+			// aapt resource value: 0x7F070090
+			public const int ActionMode_background = 2131165328;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -11386,25 +10134,11 @@ namespace DeLaTourAndroid.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F070065
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165285;
+			// aapt resource value: 0x7F070097
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131165335;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
-			
-			public static int[] AdsAttrs = new int[] {
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x7F070574
-			public const int AdsAttrs_adSize = 2131166580;
-			
-			// aapt resource value: 0x1
-			public const int AdsAttrs_adSizes = 1;
-			
-			// aapt resource value: 0x2
-			public const int AdsAttrs_adUnitId = 2;
 			
 			public static int[] AlertDialog = new int[] {
 					16842994,
@@ -11415,8 +10149,8 @@ namespace DeLaTourAndroid.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F070068
-			public const int AlertDialog_android_layout = 2131165288;
+			// aapt resource value: 0x7F070100
+			public const int AlertDialog_android_layout = 2131165440;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -11447,14 +10181,14 @@ namespace DeLaTourAndroid.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F070082
-			public const int AppBarLayoutStates_state_collapsed = 2131165314;
+			// aapt resource value: 0x7F070114
+			public const int AppBarLayoutStates_state_collapsed = 2131165460;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070076
-			public const int AppBarLayout_android_background = 2131165302;
+			// aapt resource value: 0x7F070108
+			public const int AppBarLayout_android_background = 2131165448;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -11472,8 +10206,8 @@ namespace DeLaTourAndroid.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F070085
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165317;
+			// aapt resource value: 0x7F070117
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165463;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -11484,8 +10218,8 @@ namespace DeLaTourAndroid.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F070088
-			public const int AppCompatImageView_android_src = 2131165320;
+			// aapt resource value: 0x7F070120
+			public const int AppCompatImageView_android_src = 2131165472;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -11502,8 +10236,8 @@ namespace DeLaTourAndroid.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F070093
-			public const int AppCompatSeekBar_android_thumb = 2131165331;
+			// aapt resource value: 0x7F070125
+			public const int AppCompatSeekBar_android_thumb = 2131165477;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -11523,8 +10257,8 @@ namespace DeLaTourAndroid.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F070098
-			public const int AppCompatTextHelper_android_drawableBottom = 2131165336;
+			// aapt resource value: 0x7F070130
+			public const int AppCompatTextHelper_android_drawableBottom = 2131165488;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -11554,8 +10288,8 @@ namespace DeLaTourAndroid.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070106
-			public const int AppCompatTextView_android_textAppearance = 2131165446;
+			// aapt resource value: 0x7F070138
+			public const int AppCompatTextView_android_textAppearance = 2131165496;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -11699,8 +10433,8 @@ namespace DeLaTourAndroid.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F070115
-			public const int AppCompatTheme_actionBarDivider = 2131165461;
+			// aapt resource value: 0x7F070147
+			public const int AppCompatTheme_actionBarDivider = 2131165511;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -12056,9 +10790,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x118
 			public const int AppCompatTheme_windowNoTitle = 280;
 			
-			public static int[] AppDataSearch = new int[] {
-					0};
-			
 			public static int[] BottomNavigationView = new int[] {
 					2130968701,
 					2130968749,
@@ -12066,8 +10797,8 @@ namespace DeLaTourAndroid.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070235
-			public const int BottomNavigationView_elevation = 2131165749;
+			// aapt resource value: 0x7F070267
+			public const int BottomNavigationView_elevation = 2131165799;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -12086,8 +10817,8 @@ namespace DeLaTourAndroid.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F070241
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165761;
+			// aapt resource value: 0x7F070273
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131165811;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -12098,8 +10829,8 @@ namespace DeLaTourAndroid.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F070245
-			public const int ButtonBarLayout_allowStacking = 2131165765;
+			// aapt resource value: 0x7F070277
+			public const int ButtonBarLayout_allowStacking = 2131165815;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -12116,8 +10847,8 @@ namespace DeLaTourAndroid.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F070547
-			public const int CardView_android_minHeight = 2131166535;
+			// aapt resource value: 0x7F070579
+			public const int CardView_android_minHeight = 2131166585;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -12155,164 +10886,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x12
 			public const int CardView_contentPaddingTop = 18;
 			
-			public static int[] CastExpandedController = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x3
-			public const int CastExpandedController_castButtonColor = 3;
-			
-			// aapt resource value: 0x12
-			public const int CastExpandedController_castClosedCaptionsButtonDrawable = 18;
-			
-			// aapt resource value: 0x2
-			public const int CastExpandedController_castControlButtons = 2;
-			
-			// aapt resource value: 0x10
-			public const int CastExpandedController_castForward30ButtonDrawable = 16;
-			
-			// aapt resource value: 0x11
-			public const int CastExpandedController_castMuteToggleButtonDrawable = 17;
-			
-			// aapt resource value: 0x5
-			public const int CastExpandedController_castPauseButtonDrawable = 5;
-			
-			// aapt resource value: 0x4
-			public const int CastExpandedController_castPlayButtonDrawable = 4;
-			
-			// aapt resource value: 0x9
-			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
-			
-			// aapt resource value: 0x7F070587
-			public const int CastExpandedController_castSeekBarProgressDrawable = 2131166599;
-			
-			// aapt resource value: 0x1
-			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
-			
-			// aapt resource value: 0x8
-			public const int CastExpandedController_castSkipNextButtonDrawable = 8;
-			
-			// aapt resource value: 0x7
-			public const int CastExpandedController_castSkipPreviousButtonDrawable = 7;
-			
-			// aapt resource value: 0x6
-			public const int CastExpandedController_castStopButtonDrawable = 6;
-			
-			public static int[] CastIntroOverlay = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x7F070593
-			public const int CastIntroOverlay_castBackgroundColor = 2131166611;
-			
-			// aapt resource value: 0x1
-			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
-			
-			// aapt resource value: 0x3
-			public const int CastIntroOverlay_castButtonText = 3;
-			
-			// aapt resource value: 0x2
-			public const int CastIntroOverlay_castButtonTextAppearance = 2;
-			
-			// aapt resource value: 0x5
-			public const int CastIntroOverlay_castFocusRadius = 5;
-			
-			// aapt resource value: 0x4
-			public const int CastIntroOverlay_castTitleTextAppearance = 4;
-			
-			public static int[] CastMiniController = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x4
-			public const int CastMiniController_castBackground = 4;
-			
-			// aapt resource value: 0x6
-			public const int CastMiniController_castButtonColor = 6;
-			
-			// aapt resource value: 0x18
-			public const int CastMiniController_castClosedCaptionsButtonDrawable = 24;
-			
-			// aapt resource value: 0x3
-			public const int CastMiniController_castControlButtons = 3;
-			
-			// aapt resource value: 0x16
-			public const int CastMiniController_castForward30ButtonDrawable = 22;
-			
-			// aapt resource value: 0x11
-			public const int CastMiniController_castLargePauseButtonDrawable = 17;
-			
-			// aapt resource value: 0x10
-			public const int CastMiniController_castLargePlayButtonDrawable = 16;
-			
-			// aapt resource value: 0x12
-			public const int CastMiniController_castLargeStopButtonDrawable = 18;
-			
-			// aapt resource value: 0x17
-			public const int CastMiniController_castMuteToggleButtonDrawable = 23;
-			
-			// aapt resource value: 0x8
-			public const int CastMiniController_castPauseButtonDrawable = 8;
-			
-			// aapt resource value: 0x7
-			public const int CastMiniController_castPlayButtonDrawable = 7;
-			
-			// aapt resource value: 0x5
-			public const int CastMiniController_castProgressBarColor = 5;
-			
-			// aapt resource value: 0x15
-			public const int CastMiniController_castRewind30ButtonDrawable = 21;
-			
-			// aapt resource value: 0x1
-			public const int CastMiniController_castShowImageThumbnail = 1;
-			
-			// aapt resource value: 0x14
-			public const int CastMiniController_castSkipNextButtonDrawable = 20;
-			
-			// aapt resource value: 0x13
-			public const int CastMiniController_castSkipPreviousButtonDrawable = 19;
-			
-			// aapt resource value: 0x9
-			public const int CastMiniController_castStopButtonDrawable = 9;
-			
-			// aapt resource value: 0x2
-			public const int CastMiniController_castSubtitleTextAppearance = 2;
-			
-			// aapt resource value: 0x7F070618
-			public const int CastMiniController_castTitleTextAppearance = 2131166744;
-			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
 					2130968659,
@@ -12331,8 +10904,8 @@ namespace DeLaTourAndroid.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F070247
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165767;
+			// aapt resource value: 0x7F070279
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131165817;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -12365,8 +10938,8 @@ namespace DeLaTourAndroid.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F070264
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165796;
+			// aapt resource value: 0x7F070296
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165846;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -12394,8 +10967,8 @@ namespace DeLaTourAndroid.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F070267
-			public const int ColorStateListItem_alpha = 2131165799;
+			// aapt resource value: 0x7F070299
+			public const int ColorStateListItem_alpha = 2131165849;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -12408,8 +10981,8 @@ namespace DeLaTourAndroid.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F070271
-			public const int CompoundButton_android_button = 2131165809;
+			// aapt resource value: 0x7F070303
+			public const int CompoundButton_android_button = 2131165955;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -12421,8 +10994,8 @@ namespace DeLaTourAndroid.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F070275
-			public const int CoordinatorLayout_keylines = 2131165813;
+			// aapt resource value: 0x7F070307
+			public const int CoordinatorLayout_keylines = 2131165959;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -12433,8 +11006,8 @@ namespace DeLaTourAndroid.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F070278
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165816;
+			// aapt resource value: 0x7F070310
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165968;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -12457,71 +11030,13 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			public static int[] Corpus = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x2
-			public const int Corpus_contentProviderUri = 2;
-			
-			// aapt resource value: 0x7F070621
-			public const int Corpus_corpusId = 2131166753;
-			
-			// aapt resource value: 0x1
-			public const int Corpus_corpusVersion = 1;
-			
-			// aapt resource value: 0x6
-			public const int Corpus_documentMaxAgeSecs = 6;
-			
-			// aapt resource value: 0x7
-			public const int Corpus_perAccountTemplate = 7;
-			
-			// aapt resource value: 0x4
-			public const int Corpus_schemaOrgType = 4;
-			
-			// aapt resource value: 0x5
-			public const int Corpus_semanticallySearchable = 5;
-			
-			// aapt resource value: 0x3
-			public const int Corpus_trimmable = 3;
-			
-			public static int[] CustomCastTheme = new int[] {
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x2
-			public const int CustomCastTheme_castExpandedControllerStyle = 2;
-			
-			// aapt resource value: 0x7F070630
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131166768;
-			
-			// aapt resource value: 0x1
-			public const int CustomCastTheme_castMiniControllerStyle = 1;
-			
-			public static int[] CustomWalletTheme = new int[] {
-					1,
-					1};
-			
-			// aapt resource value: 0x1
-			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
-			
-			// aapt resource value: 0x7F070634
-			public const int CustomWalletTheme_windowTransitionStyle = 2131166772;
-			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F070286
-			public const int DesignTheme_bottomSheetDialogTheme = 2131165830;
+			// aapt resource value: 0x7F070318
+			public const int DesignTheme_bottomSheetDialogTheme = 2131165976;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -12539,8 +11054,8 @@ namespace DeLaTourAndroid.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F070290
-			public const int DrawerArrowToggle_arrowHeadLength = 2131165840;
+			// aapt resource value: 0x7F070322
+			public const int DrawerArrowToggle_arrowHeadLength = 2131165986;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -12563,16 +11078,6 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			public static int[] FeatureParam = new int[] {
-					1,
-					1};
-			
-			// aapt resource value: 0x7F070636
-			public const int FeatureParam_paramName = 2131166774;
-			
-			// aapt resource value: 0x1
-			public const int FeatureParam_paramValue = 1;
-			
 			public static int[] FloatingActionButton = new int[] {
 					0,
 					0,
@@ -12581,8 +11086,8 @@ namespace DeLaTourAndroid.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070298
-			public const int FloatingActionButton_backgroundTint = 2131165848;
+			// aapt resource value: 0x7F070330
+			public const int FloatingActionButton_backgroundTint = 2131166000;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -12590,8 +11095,8 @@ namespace DeLaTourAndroid.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F070307
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165959;
+			// aapt resource value: 0x7F070339
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131166009;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -12602,23 +11107,23 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x4
 			public const int FloatingActionButton_fabSize = 4;
 			
-			// aapt resource value: 0x7F070004
-			public const int FloatingActionButton_fab_colorDisabled = 2131165188;
+			// aapt resource value: 0x7F070036
+			public const int FloatingActionButton_fab_colorDisabled = 2131165238;
 			
-			// aapt resource value: 0x7F070003
-			public const int FloatingActionButton_fab_colorNormal = 2131165187;
+			// aapt resource value: 0x7F070035
+			public const int FloatingActionButton_fab_colorNormal = 2131165237;
 			
-			// aapt resource value: 0x7F070002
-			public const int FloatingActionButton_fab_colorPressed = 2131165186;
+			// aapt resource value: 0x7F070034
+			public const int FloatingActionButton_fab_colorPressed = 2131165236;
 			
-			// aapt resource value: 0x7F070005
-			public const int FloatingActionButton_fab_colorRipple = 2131165189;
+			// aapt resource value: 0x7F070037
+			public const int FloatingActionButton_fab_colorRipple = 2131165239;
 			
-			// aapt resource value: 0x7F070006
-			public const int FloatingActionButton_fab_shadow = 2131165190;
+			// aapt resource value: 0x7F070038
+			public const int FloatingActionButton_fab_shadow = 2131165240;
 			
-			// aapt resource value: 0x7F070007
-			public const int FloatingActionButton_fab_size = 2131165191;
+			// aapt resource value: 0x7F070039
+			public const int FloatingActionButton_fab_size = 2131165241;
 			
 			// aapt resource value: 0x5
 			public const int FloatingActionButton_pressedTranslationZ = 5;
@@ -12645,8 +11150,8 @@ namespace DeLaTourAndroid.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F070017
-			public const int FontFamilyFont_android_font = 2131165207;
+			// aapt resource value: 0x7F070049
+			public const int FontFamilyFont_android_font = 2131165257;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -12663,8 +11168,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F070010
-			public const int FontFamily_fontProviderAuthority = 2131165200;
+			// aapt resource value: 0x7F070042
+			public const int FontFamily_fontProviderAuthority = 2131165250;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -12686,82 +11191,14 @@ namespace DeLaTourAndroid.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F070309
-			public const int ForegroundLinearLayout_android_foreground = 2131165961;
+			// aapt resource value: 0x7F070341
+			public const int ForegroundLinearLayout_android_foreground = 2131166017;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
 			
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
-			
-			public static int[] GlobalSearch = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			public static int[] GlobalSearchCorpus = new int[] {
-					1};
-			
-			// aapt resource value: 0x7F070646
-			public const int GlobalSearchCorpus_allowShortcuts = 2131166790;
-			
-			public static int[] GlobalSearchSection = new int[] {
-					1,
-					1};
-			
-			// aapt resource value: 0x1
-			public const int GlobalSearchSection_sectionContent = 1;
-			
-			// aapt resource value: 0x7F070649
-			public const int GlobalSearchSection_sectionType = 2131166793;
-			
-			// aapt resource value: 0x3
-			public const int GlobalSearch_defaultIntentAction = 3;
-			
-			// aapt resource value: 0x5
-			public const int GlobalSearch_defaultIntentActivity = 5;
-			
-			// aapt resource value: 0x4
-			public const int GlobalSearch_defaultIntentData = 4;
-			
-			// aapt resource value: 0x7F070642
-			public const int GlobalSearch_searchEnabled = 2131166786;
-			
-			// aapt resource value: 0x1
-			public const int GlobalSearch_searchLabel = 1;
-			
-			// aapt resource value: 0x2
-			public const int GlobalSearch_settingsDescription = 2;
-			
-			public static int[] IMECorpus = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x7F070651
-			public const int IMECorpus_inputEnabled = 2131166801;
-			
-			// aapt resource value: 0x1
-			public const int IMECorpus_sourceClass = 1;
-			
-			// aapt resource value: 0x5
-			public const int IMECorpus_toAddressesSection = 5;
-			
-			// aapt resource value: 0x3
-			public const int IMECorpus_userInputSection = 3;
-			
-			// aapt resource value: 0x2
-			public const int IMECorpus_userInputTag = 2;
-			
-			// aapt resource value: 0x4
-			public const int IMECorpus_userInputValue = 4;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16843046,
@@ -12774,8 +11211,8 @@ namespace DeLaTourAndroid.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F070313
-			public const int LinearLayoutCompat_android_baselineAligned = 2131165971;
+			// aapt resource value: 0x7F070345
+			public const int LinearLayoutCompat_android_baselineAligned = 2131166021;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -12801,8 +11238,8 @@ namespace DeLaTourAndroid.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F070323
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131165987;
+			// aapt resource value: 0x7F070355
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131166037;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -12823,50 +11260,50 @@ namespace DeLaTourAndroid.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070328
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131165992;
+			// aapt resource value: 0x7F070360
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131166048;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			public static int[] LoadingImageView = new int[] {
-					0,
-					0,
-					0};
+					2130771968,
+					2130771969,
+					2130771970};
 			
-			// aapt resource value: 0x7F070567
-			public const int LoadingImageView_circleCrop = 2131166567;
+			// aapt resource value: 0x2
+			public const int LoadingImageView_circleCrop = 2;
 			
-			// aapt resource value: 0x7F070566
-			public const int LoadingImageView_imageAspectRatio = 2131166566;
+			// aapt resource value: 0x1
+			public const int LoadingImageView_imageAspectRatio = 1;
 			
-			// aapt resource value: 0x7F070565
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131166565;
+			// aapt resource value: 0x7F070005
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131165189;
 			
 			public static int[] MapAttrs = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993};
 			
 			// aapt resource value: 0x16
 			public const int MapAttrs_ambientEnabled = 22;
@@ -12907,8 +11344,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F070671
-			public const int MapAttrs_mapType = 2131166833;
+			// aapt resource value: 0x7F070020
+			public const int MapAttrs_mapType = 2131165216;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -12943,8 +11380,8 @@ namespace DeLaTourAndroid.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F070561
-			public const int MediaRouteButton_android_minHeight = 2131166561;
+			// aapt resource value: 0x7F070593
+			public const int MediaRouteButton_android_minHeight = 2131166611;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -12963,8 +11400,8 @@ namespace DeLaTourAndroid.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F070331
-			public const int MenuGroup_android_checkableBehavior = 2131166001;
+			// aapt resource value: 0x7F070363
+			public const int MenuGroup_android_checkableBehavior = 2131166051;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -13006,8 +11443,8 @@ namespace DeLaTourAndroid.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F070338
-			public const int MenuItem_actionLayout = 2131166008;
+			// aapt resource value: 0x7F070370
+			public const int MenuItem_actionLayout = 2131166064;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -13086,8 +11523,8 @@ namespace DeLaTourAndroid.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F070362
-			public const int MenuView_android_headerBackground = 2131166050;
+			// aapt resource value: 0x7F070394
+			public const int MenuView_android_headerBackground = 2131166100;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -13125,8 +11562,8 @@ namespace DeLaTourAndroid.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F070372
-			public const int NavigationView_android_background = 2131166066;
+			// aapt resource value: 0x7F070404
+			public const int NavigationView_android_background = 2131166212;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -13163,11 +11600,11 @@ namespace DeLaTourAndroid.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F070387
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166087;
+			// aapt resource value: 0x7F070419
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131166233;
 			
-			// aapt resource value: 0x7F070383
-			public const int PopupWindow_android_popupAnimationStyle = 2131166083;
+			// aapt resource value: 0x7F070415
+			public const int PopupWindow_android_popupAnimationStyle = 2131166229;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -13179,8 +11616,8 @@ namespace DeLaTourAndroid.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F070389
-			public const int RecycleListView_paddingBottomNoButtons = 2131166089;
+			// aapt resource value: 0x7F070421
+			public const int RecycleListView_paddingBottomNoButtons = 2131166241;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -13198,8 +11635,8 @@ namespace DeLaTourAndroid.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F070392
-			public const int RecyclerView_android_descendantFocusability = 2131166098;
+			// aapt resource value: 0x7F070424
+			public const int RecyclerView_android_descendantFocusability = 2131166244;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -13234,14 +11671,14 @@ namespace DeLaTourAndroid.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F070404
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166212;
+			// aapt resource value: 0x7F070436
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131166262;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F070406
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166214;
+			// aapt resource value: 0x7F070438
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166264;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -13262,8 +11699,8 @@ namespace DeLaTourAndroid.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F070408
-			public const int SearchView_android_focusable = 2131166216;
+			// aapt resource value: 0x7F070440
+			public const int SearchView_android_focusable = 2131166272;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -13313,63 +11750,27 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
-			public static int[] Section = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
+			public static int[] SignInButton = new int[] {
+					2130771994,
+					2130771995,
+					2130771996};
 			
-			public static int[] SectionFeature = new int[] {
-					1};
-			
-			// aapt resource value: 0x7F070690
-			public const int SectionFeature_featureType = 2131166864;
-			
-			// aapt resource value: 0x4
-			public const int Section_indexPrefixes = 4;
-			
-			// aapt resource value: 0x2
-			public const int Section_noIndex = 2;
-			
-			// aapt resource value: 0x6
-			public const int Section_schemaOrgProperty = 6;
+			// aapt resource value: 0x7F070031
+			public const int SignInButton_buttonSize = 2131165233;
 			
 			// aapt resource value: 0x1
-			public const int Section_sectionFormat = 1;
+			public const int SignInButton_colorScheme = 1;
 			
-			// aapt resource value: 0x7F070686
-			public const int Section_sectionId = 2131166854;
-			
-			// aapt resource value: 0x3
-			public const int Section_sectionWeight = 3;
-			
-			// aapt resource value: 0x5
-			public const int Section_subsectionSeparator = 5;
-			
-			public static int[] SignInButton = new int[] {
-					0,
-					0,
-					0};
-			
-			// aapt resource value: 0x7F070569
-			public const int SignInButton_buttonSize = 2131166569;
-			
-			// aapt resource value: 0x7F070570
-			public const int SignInButton_colorScheme = 2131166576;
-			
-			// aapt resource value: 0x7F070571
-			public const int SignInButton_scopeUris = 2131166577;
+			// aapt resource value: 0x2
+			public const int SignInButton_scopeUris = 2;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F070426
-			public const int SnackbarLayout_android_maxWidth = 2131166246;
+			// aapt resource value: 0x7F070458
+			public const int SnackbarLayout_android_maxWidth = 2131166296;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -13384,8 +11785,8 @@ namespace DeLaTourAndroid.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F070430
-			public const int Spinner_android_dropDownWidth = 2131166256;
+			// aapt resource value: 0x7F070462
+			public const int Spinner_android_dropDownWidth = 2131166306;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -13415,8 +11816,8 @@ namespace DeLaTourAndroid.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F070436
-			public const int SwitchCompat_android_textOff = 2131166262;
+			// aapt resource value: 0x7F070468
+			public const int SwitchCompat_android_textOff = 2131166312;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -13462,8 +11863,8 @@ namespace DeLaTourAndroid.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070451
-			public const int TabItem_android_icon = 2131166289;
+			// aapt resource value: 0x7F070483
+			public const int TabItem_android_icon = 2131166339;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -13489,8 +11890,8 @@ namespace DeLaTourAndroid.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F070455
-			public const int TabLayout_tabBackground = 2131166293;
+			// aapt resource value: 0x7F070487
+			public const int TabLayout_tabBackground = 2131166343;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -13552,8 +11953,8 @@ namespace DeLaTourAndroid.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F070472
-			public const int TextAppearance_android_fontFamily = 2131166322;
+			// aapt resource value: 0x7F070504
+			public const int TextAppearance_android_fontFamily = 2131166468;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -13609,8 +12010,8 @@ namespace DeLaTourAndroid.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F070486
-			public const int TextInputLayout_android_hint = 2131166342;
+			// aapt resource value: 0x7F070518
+			public const int TextInputLayout_android_hint = 2131166488;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -13688,8 +12089,8 @@ namespace DeLaTourAndroid.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F070503
-			public const int Toolbar_android_gravity = 2131166467;
+			// aapt resource value: 0x7F070535
+			public const int Toolbar_android_gravity = 2131166517;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -13787,8 +12188,8 @@ namespace DeLaTourAndroid.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F070539
-			public const int ViewBackgroundHelper_android_background = 2131166521;
+			// aapt resource value: 0x7F070571
+			public const int ViewBackgroundHelper_android_background = 2131166577;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -13801,8 +12202,8 @@ namespace DeLaTourAndroid.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F070543
-			public const int ViewStubCompat_android_id = 2131166531;
+			// aapt resource value: 0x7F070575
+			public const int ViewStubCompat_android_id = 2131166581;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -13810,8 +12211,8 @@ namespace DeLaTourAndroid.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F070533
-			public const int View_android_focusable = 2131166515;
+			// aapt resource value: 0x7F070565
+			public const int View_android_focusable = 2131166565;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -13824,70 +12225,6 @@ namespace DeLaTourAndroid.Droid
 			
 			// aapt resource value: 0x4
 			public const int View_theme = 4;
-			
-			public static int[] WalletFragmentOptions = new int[] {
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x7F070692
-			public const int WalletFragmentOptions_appTheme = 2131166866;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentOptions_environment = 1;
-			
-			// aapt resource value: 0x3
-			public const int WalletFragmentOptions_fragmentMode = 3;
-			
-			// aapt resource value: 0x2
-			public const int WalletFragmentOptions_fragmentStyle = 2;
-			
-			public static int[] WalletFragmentStyle = new int[] {
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1,
-					1};
-			
-			// aapt resource value: 0x3
-			public const int WalletFragmentStyle_buyButtonAppearance = 3;
-			
-			// aapt resource value: 0x7F070698
-			public const int WalletFragmentStyle_buyButtonHeight = 2131166872;
-			
-			// aapt resource value: 0x2
-			public const int WalletFragmentStyle_buyButtonText = 2;
-			
-			// aapt resource value: 0x1
-			public const int WalletFragmentStyle_buyButtonWidth = 1;
-			
-			// aapt resource value: 0x6
-			public const int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
-			
-			// aapt resource value: 0x8
-			public const int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
-			
-			// aapt resource value: 0x7
-			public const int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
-			
-			// aapt resource value: 0x5
-			public const int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
-			
-			// aapt resource value: 0x10
-			public const int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 16;
-			
-			// aapt resource value: 0x9
-			public const int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
-			
-			// aapt resource value: 0x4
-			public const int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
 			
 			static Styleable()
 			{

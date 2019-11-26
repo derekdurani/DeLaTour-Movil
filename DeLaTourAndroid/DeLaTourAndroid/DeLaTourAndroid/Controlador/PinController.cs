@@ -16,7 +16,7 @@ namespace DeLaTourAndroid.Controlador
             HttpClient client = new HttpClient();
             var json = JsonConvert.SerializeObject(pin);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(Helpers.apiUrl + "save-usuario", content);
+            var response = await client.PostAsync(Helpers.apiUrl + "save-pin", content);
             string jsonString = await response.Content.ReadAsStringAsync();
             return _pin = JsonConvert.DeserializeObject<pines>(jsonString);
         }
